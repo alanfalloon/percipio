@@ -18,4 +18,4 @@
 # along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 export OCAMLRUNPARAM=b
-exec strace -f -F -ttt -s 4096 -x -o test_data -e trace=file,process,chdir "$@"
+exec strace -f -F -ttt -s 4096 -x -v -o test_data -e trace=file,process,chdir "$@"

@@ -26,6 +26,8 @@
 
 *)
 
+open Genlex ;;
+open Printf ;;
 
 (** This makes a stream of characters from an input stream. However,
     because Genlex doesn't let us know about newlines, they are
@@ -48,7 +50,7 @@ let translated_char_stream in_chan =
 
 (** The lexer *)
 let lexer =
-  Genlex.make_lexer
+  make_lexer
     [ ";"
     ; "(" ; ")"
     ; "[" ; "]" ; "~["
@@ -63,13 +65,13 @@ let lexer =
 
 (** A debug printer for the Genlex tokens *)
 let print_token = function
-    Genlex.Kwd ";"  -> Printf.printf "\n"
-  | Genlex.Kwd s    -> Printf.printf "(K %s)" s
-  | Genlex.Ident s  -> Printf.printf "(I %s)" s
-  | Genlex.Int i    -> Printf.printf "(N %d)" i
-  | Genlex.Float f  -> Printf.printf "(F %f)" f
-  | Genlex.String s -> Printf.printf "(S %S)" s
-  | Genlex.Char c   -> Printf.printf "(C %C)" c
+    Kwd ";"  -> printf "\n"
+  | Kwd s    -> printf "(K %s)" s
+  | Ident s  -> printf "(I %s)" s
+  | Int i    -> printf "(N %d)" i
+  | Float f  -> printf "(F %f)" f
+  | String s -> printf "(S %S)" s
+  | Char c   -> printf "(C %C)" c
 ;;
 
 let () =

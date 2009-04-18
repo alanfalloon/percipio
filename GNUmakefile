@@ -53,6 +53,9 @@ $(CMO): $(BUILD_DIR)/%.cmo: %.ml | $(BUILD_DIR)
 $(BUILD_DIR):
 	mkdir $@
 
+test: $(BYTE) test_data
+	$< < test_data
+
 clean::
 	rm -r $(NATIVE) $(BYTE) $(CMO) $(CMX)
 
@@ -60,4 +63,4 @@ all:    $(NATIVE) $(BYTE)
 native: $(NATIVE)
 byte:   $(BYTE)
 
-.PHONY: all native byte clean
+.PHONY: all native byte clean test

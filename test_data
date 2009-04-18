@@ -1,0 +1,1245 @@
+30846 1240020434.017079 execve("/usr/bin/make", ["make", "-j"], [/* 37 vars */]) = 0
+30846 1240020434.018000 access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+30846 1240020434.018095 access("/etc/ld.so.preload", R_OK) = -1 ENOENT (No such file or directory)
+30846 1240020434.018144 open("/etc/ld.so.cache", O_RDONLY) = 3
+30846 1240020434.018221 access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+30846 1240020434.018267 open("/lib/librt.so.1", O_RDONLY) = 3
+30846 1240020434.018426 access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+30846 1240020434.018467 open("/lib/libc.so.6", O_RDONLY) = 3
+30846 1240020434.018622 access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+30846 1240020434.018660 open("/lib/libpthread.so.0", O_RDONLY) = 3
+30846 1240020434.018870 arch_prctl(ARCH_SET_FS, 0x7f4bc29766e0) = 0
+30846 1240020434.019427 open("/usr/lib/locale/locale-archive", O_RDONLY) = -1 ENOENT (No such file or directory)
+30846 1240020434.019492 open("/usr/share/locale/locale.alias", O_RDONLY) = 3
+30846 1240020434.019737 open("/usr/lib/locale/en_CA.UTF-8/LC_IDENTIFICATION", O_RDONLY) = -1 ENOENT (No such file or directory)
+30846 1240020434.019780 open("/usr/lib/locale/en_CA.utf8/LC_IDENTIFICATION", O_RDONLY) = 3
+30846 1240020434.019864 open("/usr/lib/gconv/gconv-modules.cache", O_RDONLY) = 3
+30846 1240020434.020010 open("/usr/lib/locale/en_CA.UTF-8/LC_MEASUREMENT", O_RDONLY) = -1 ENOENT (No such file or directory)
+30846 1240020434.020050 open("/usr/lib/locale/en_CA.utf8/LC_MEASUREMENT", O_RDONLY) = 3
+30846 1240020434.020175 open("/usr/lib/locale/en_CA.UTF-8/LC_TELEPHONE", O_RDONLY) = -1 ENOENT (No such file or directory)
+30846 1240020434.020219 open("/usr/lib/locale/en_CA.utf8/LC_TELEPHONE", O_RDONLY) = 3
+30846 1240020434.020341 open("/usr/lib/locale/en_CA.UTF-8/LC_ADDRESS", O_RDONLY) = -1 ENOENT (No such file or directory)
+30846 1240020434.020381 open("/usr/lib/locale/en_CA.utf8/LC_ADDRESS", O_RDONLY) = 3
+30846 1240020434.020503 open("/usr/lib/locale/en_CA.UTF-8/LC_NAME", O_RDONLY) = -1 ENOENT (No such file or directory)
+30846 1240020434.020542 open("/usr/lib/locale/en_CA.utf8/LC_NAME", O_RDONLY) = 3
+30846 1240020434.020661 open("/usr/lib/locale/en_CA.UTF-8/LC_PAPER", O_RDONLY) = -1 ENOENT (No such file or directory)
+30846 1240020434.020700 open("/usr/lib/locale/en_CA.utf8/LC_PAPER", O_RDONLY) = 3
+30846 1240020434.020825 open("/usr/lib/locale/en_CA.UTF-8/LC_MESSAGES", O_RDONLY) = -1 ENOENT (No such file or directory)
+30846 1240020434.020864 open("/usr/lib/locale/en_CA.utf8/LC_MESSAGES", O_RDONLY) = 3
+30846 1240020434.020927 open("/usr/lib/locale/en_CA.utf8/LC_MESSAGES/SYS_LC_MESSAGES", O_RDONLY) = 3
+30846 1240020434.021058 open("/usr/lib/locale/en_CA.UTF-8/LC_MONETARY", O_RDONLY) = -1 ENOENT (No such file or directory)
+30846 1240020434.021097 open("/usr/lib/locale/en_CA.utf8/LC_MONETARY", O_RDONLY) = 3
+30846 1240020434.021221 open("/usr/lib/locale/en_CA.UTF-8/LC_COLLATE", O_RDONLY) = -1 ENOENT (No such file or directory)
+30846 1240020434.021260 open("/usr/lib/locale/en_CA.utf8/LC_COLLATE", O_RDONLY) = 3
+30846 1240020434.021382 open("/usr/lib/locale/en_CA.UTF-8/LC_TIME", O_RDONLY) = -1 ENOENT (No such file or directory)
+30846 1240020434.021421 open("/usr/lib/locale/en_CA.utf8/LC_TIME", O_RDONLY) = 3
+30846 1240020434.021545 open("/usr/lib/locale/en_CA.UTF-8/LC_NUMERIC", O_RDONLY) = -1 ENOENT (No such file or directory)
+30846 1240020434.021584 open("/usr/lib/locale/en_CA.utf8/LC_NUMERIC", O_RDONLY) = 3
+30846 1240020434.021708 open("/usr/lib/locale/en_CA.UTF-8/LC_CTYPE", O_RDONLY) = -1 ENOENT (No such file or directory)
+30846 1240020434.021747 open("/usr/lib/locale/en_CA.utf8/LC_CTYPE", O_RDONLY) = 3
+30846 1240020434.021973 getcwd("/home/al/src/percipio", 4096) = 22
+30846 1240020434.022071 stat("/usr/include", {st_mode=S_IFDIR|0755, st_size=11728, ...}) = 0
+30846 1240020434.023451 stat("/usr/gnu/include", 0x7fffca99a850) = -1 ENOENT (No such file or directory)
+30846 1240020434.023594 stat("/usr/local/include", {st_mode=S_IFDIR|0755, st_size=48, ...}) = 0
+30846 1240020434.023701 stat("/usr/include", {st_mode=S_IFDIR|0755, st_size=11728, ...}) = 0
+30846 1240020434.023931 stat(".", {st_mode=S_IFDIR|0755, st_size=360, ...}) = 0
+30846 1240020434.023988 open(".", O_RDONLY|O_NONBLOCK|O_DIRECTORY|0x80000) = 3
+30846 1240020434.024100 open("GNUmakefile", O_RDONLY) = 4
+30846 1240020434.024700 stat("RCS", 0x7fffca99a780) = -1 ENOENT (No such file or directory)
+30846 1240020434.024739 stat("SCCS", 0x7fffca99a780) = -1 ENOENT (No such file or directory)
+30846 1240020434.024783 stat("GNUmakefile", {st_mode=S_IFREG|0644, st_size=2085, ...}) = 0
+30846 1240020434.025277 stat("build/percepio_parser", 0x7fffca9986f0) = -1 ENOENT (No such file or directory)
+30846 1240020434.025324 stat("build/percepio_parser.cmx", 0x7fffca998600) = -1 ENOENT (No such file or directory)
+30846 1240020434.025358 stat("percepio_parser.ml", {st_mode=S_IFREG|0644, st_size=2327, ...}) = 0
+30846 1240020434.025698 stat("build", 0x7fffca998510) = -1 ENOENT (No such file or directory)
+30846 1240020434.028463 vfork()         = 30847
+30847 1240020434.031150 execve("/home/al/build/lisaac/bin/mkdir", ["mkdir", "build"], [/* 40 vars */]) = -1 ENOENT (No such file or directory)
+30847 1240020434.032359 execve("/usr/local/sbin/mkdir", ["mkdir", "build"], [/* 40 vars */]) = -1 ENOENT (No such file or directory)
+30847 1240020434.035393 execve("/usr/local/bin/mkdir", ["mkdir", "build"], [/* 40 vars */]) = -1 ENOENT (No such file or directory)
+30847 1240020434.035484 execve("/usr/sbin/mkdir", ["mkdir", "build"], [/* 40 vars */]) = -1 ENOENT (No such file or directory)
+30847 1240020434.035612 execve("/usr/bin/mkdir", ["mkdir", "build"], [/* 40 vars */]) = -1 ENOENT (No such file or directory)
+30847 1240020434.035684 execve("/sbin/mkdir", ["mkdir", "build"], [/* 40 vars */]) = -1 ENOENT (No such file or directory)
+30847 1240020434.035808 execve("/bin/mkdir", ["mkdir", "build"], [/* 40 vars */]) = 0
+30847 1240020434.036351 access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+30847 1240020434.036426 access("/etc/ld.so.preload", R_OK) = -1 ENOENT (No such file or directory)
+30847 1240020434.036528 open("/etc/ld.so.cache", O_RDONLY) = 3
+30847 1240020434.036604 access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+30847 1240020434.036650 open("/lib/libselinux.so.1", O_RDONLY) = 3
+30847 1240020434.037009 access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+30847 1240020434.037053 open("/lib/libc.so.6", O_RDONLY) = 3
+30847 1240020434.037254 access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+30847 1240020434.037297 open("/lib/libdl.so.2", O_RDONLY) = 3
+30847 1240020434.037563 arch_prctl(ARCH_SET_FS, 0x2aff3d266e80) = 0
+30847 1240020434.038072 open("/etc/selinux/config", O_RDONLY) = -1 ENOENT (No such file or directory)
+30847 1240020434.038221 statfs("/selinux", 0x7fff6e1f2950) = -1 ENOENT (No such file or directory)
+30847 1240020434.038260 open("/proc/mounts", O_RDONLY) = 3
+30847 1240020434.038611 open("/usr/lib/locale/locale-archive", O_RDONLY) = -1 ENOENT (No such file or directory)
+30847 1240020434.038659 open("/usr/share/locale/locale.alias", O_RDONLY) = 3
+30847 1240020434.038920 open("/usr/lib/locale/en_CA.UTF-8/LC_IDENTIFICATION", O_RDONLY) = -1 ENOENT (No such file or directory)
+30847 1240020434.038962 open("/usr/lib/locale/en_CA.utf8/LC_IDENTIFICATION", O_RDONLY) = 3
+30847 1240020434.039092 open("/usr/lib/gconv/gconv-modules.cache", O_RDONLY) = 3
+30847 1240020434.041252 open("/usr/lib/locale/en_CA.UTF-8/LC_MEASUREMENT", O_RDONLY) = -1 ENOENT (No such file or directory)
+30847 1240020434.041337 open("/usr/lib/locale/en_CA.utf8/LC_MEASUREMENT", O_RDONLY) = 3
+30847 1240020434.041531 open("/usr/lib/locale/en_CA.UTF-8/LC_TELEPHONE", O_RDONLY) = -1 ENOENT (No such file or directory)
+30847 1240020434.041572 open("/usr/lib/locale/en_CA.utf8/LC_TELEPHONE", O_RDONLY) = 3
+30847 1240020434.041809 open("/usr/lib/locale/en_CA.UTF-8/LC_ADDRESS", O_RDONLY) = -1 ENOENT (No such file or directory)
+30847 1240020434.041849 open("/usr/lib/locale/en_CA.utf8/LC_ADDRESS", O_RDONLY) = 3
+30847 1240020434.042068 open("/usr/lib/locale/en_CA.UTF-8/LC_NAME", O_RDONLY) = -1 ENOENT (No such file or directory)
+30847 1240020434.048001 open("/usr/lib/locale/en_CA.utf8/LC_NAME", O_RDONLY) = 3
+30847 1240020434.048194 open("/usr/lib/locale/en_CA.UTF-8/LC_PAPER", O_RDONLY) = -1 ENOENT (No such file or directory)
+30847 1240020434.048234 open("/usr/lib/locale/en_CA.utf8/LC_PAPER", O_RDONLY) = 3
+30847 1240020434.048352 open("/usr/lib/locale/en_CA.UTF-8/LC_MESSAGES", O_RDONLY) = -1 ENOENT (No such file or directory)
+30847 1240020434.048390 open("/usr/lib/locale/en_CA.utf8/LC_MESSAGES", O_RDONLY) = 3
+30847 1240020434.048446 open("/usr/lib/locale/en_CA.utf8/LC_MESSAGES/SYS_LC_MESSAGES", O_RDONLY) = 3
+30847 1240020434.048572 open("/usr/lib/locale/en_CA.UTF-8/LC_MONETARY", O_RDONLY) = -1 ENOENT (No such file or directory)
+30847 1240020434.048610 open("/usr/lib/locale/en_CA.utf8/LC_MONETARY", O_RDONLY) = 3
+30847 1240020434.048835 open("/usr/lib/locale/en_CA.UTF-8/LC_COLLATE", O_RDONLY) = -1 ENOENT (No such file or directory)
+30847 1240020434.048875 open("/usr/lib/locale/en_CA.utf8/LC_COLLATE", O_RDONLY) = 3
+30847 1240020434.049002 open("/usr/lib/locale/en_CA.UTF-8/LC_TIME", O_RDONLY) = -1 ENOENT (No such file or directory)
+30847 1240020434.049040 open("/usr/lib/locale/en_CA.utf8/LC_TIME", O_RDONLY) = 3
+30847 1240020434.049157 open("/usr/lib/locale/en_CA.UTF-8/LC_NUMERIC", O_RDONLY) = -1 ENOENT (No such file or directory)
+30847 1240020434.049196 open("/usr/lib/locale/en_CA.utf8/LC_NUMERIC", O_RDONLY) = 3
+30847 1240020434.049318 open("/usr/lib/locale/en_CA.UTF-8/LC_CTYPE", O_RDONLY) = -1 ENOENT (No such file or directory)
+30847 1240020434.049356 open("/usr/lib/locale/en_CA.utf8/LC_CTYPE", O_RDONLY) = 3
+30847 1240020434.049464 mkdir("build", 0777) = 0
+30847 1240020434.049611 exit_group(0)   = ?
+30846 1240020434.049783 --- SIGCHLD (Child exited) @ 0 (0) ---
+30846 1240020434.049843 stat("build/percepio_parser.byte", 0x7fffca9986f0) = -1 ENOENT (No such file or directory)
+30846 1240020434.049894 stat("build/percepio_parser.cmo", 0x7fffca998600) = -1 ENOENT (No such file or directory)
+30846 1240020434.049955 wait4(-1, [{WIFEXITED(s) && WEXITSTATUS(s) == 0}], 0, NULL) = 30847
+30846 1240020434.050046 stat("build", {st_mode=S_IFDIR|0755, st_size=48, ...}) = 0
+30846 1240020434.050333 vfork()         = 30848
+30848 1240020434.062017 execve("/home/al/build/lisaac/bin/ocamlfind", ["ocamlfind", "ocamlopt", "-g", "-package", "camlp4", "-o", "build/percepio_parser.cmx", "-c", "percepio_parser.ml"], [/* 40 vars */]) = -1 ENOENT (No such file or directory)
+30848 1240020434.062157 execve("/usr/local/sbin/ocamlfind", ["ocamlfind", "ocamlopt", "-g", "-package", "camlp4", "-o", "build/percepio_parser.cmx", "-c", "percepio_parser.ml"], [/* 40 vars */]) = -1 ENOENT (No such file or directory)
+30848 1240020434.062313 execve("/usr/local/bin/ocamlfind", ["ocamlfind", "ocamlopt", "-g", "-package", "camlp4", "-o", "build/percepio_parser.cmx", "-c", "percepio_parser.ml"], [/* 40 vars */]) = -1 ENOENT (No such file or directory)
+30848 1240020434.062408 execve("/usr/sbin/ocamlfind", ["ocamlfind", "ocamlopt", "-g", "-package", "camlp4", "-o", "build/percepio_parser.cmx", "-c", "percepio_parser.ml"], [/* 40 vars */]) = -1 ENOENT (No such file or directory)
+30848 1240020434.062502 execve("/usr/bin/ocamlfind", ["ocamlfind", "ocamlopt", "-g", "-package", "camlp4", "-o", "build/percepio_parser.cmx", "-c", "percepio_parser.ml"], [/* 40 vars */]) = 0
+30848 1240020434.063044 access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+30848 1240020434.063116 access("/etc/ld.so.preload", R_OK) = -1 ENOENT (No such file or directory)
+30848 1240020434.063373 open("/etc/ld.so.cache", O_RDONLY) = 3
+30848 1240020434.063504 access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+30848 1240020434.063550 open("/lib/libm.so.6", O_RDONLY) = 3
+30848 1240020434.063719 access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+30848 1240020434.063819 open("/lib/libdl.so.2", O_RDONLY) = 3
+30848 1240020434.063988 access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+30848 1240020434.064123 open("/lib/libc.so.6", O_RDONLY) = 3
+30848 1240020434.064329 arch_prctl(ARCH_SET_FS, 0x2b3a6fc40de0) = 0
+30848 1240020434.065027 readlink("/proc/self/exe", "/usr/bin/ocamlfind", 256) = 18
+30848 1240020434.065124 stat("/usr/bin/ocamlfind", {st_mode=S_IFREG|0755, st_size=540256, ...}) = 0
+30848 1240020434.065960 stat("/etc/ocamlfind.conf", {st_mode=S_IFREG|0644, st_size=123, ...}) = 0
+30848 1240020434.066055 open("/etc/ocamlfind.conf", O_RDONLY) = 3
+30848 1240020434.066270 stat("/usr/share/ocaml-findlib/", {st_mode=S_IFDIR|0755, st_size=96, ...}) = 0
+30848 1240020434.066329 open("/usr/share/ocaml-findlib/", O_RDONLY|O_NONBLOCK|O_DIRECTORY|0x80000) = 3
+30848 1240020434.066505 open("/usr/share/ocaml-findlib/ocaml-native-compilers.conf", O_RDONLY) = 3
+30848 1240020434.066624 stat("/etc/ocamlfind.conf.d", 0x7fff3b883de0) = -1 ENOENT (No such file or directory)
+30848 1240020434.066821 stat("/usr/local/lib/ocaml/3.10.2/threads/META", 0x7fff3b883d10) = -1 ENOENT (No such file or directory)
+30848 1240020434.067842 stat("/usr/local/lib/ocaml/3.10.2/META.threads", 0x7fff3b883d10) = -1 ENOENT (No such file or directory)
+30848 1240020434.068008 stat("/usr/lib/ocaml/3.10.2/threads/META", 0x7fff3b883d10) = -1 ENOENT (No such file or directory)
+30848 1240020434.068047 stat("/usr/lib/ocaml/3.10.2/META.threads", 0x7fff3b883d10) = -1 ENOENT (No such file or directory)
+30848 1240020434.068084 stat("/usr/lib/ocaml/3.10.2/METAS/threads/META", 0x7fff3b883d10) = -1 ENOENT (No such file or directory)
+30848 1240020434.068179 stat("/usr/lib/ocaml/3.10.2/METAS/META.threads", {st_mode=S_IFREG|0644, st_size=834, ...}) = 0
+30848 1240020434.068247 open("/usr/lib/ocaml/3.10.2/METAS/META.threads", O_RDONLY) = 3
+30848 1240020434.068546 stat("/usr/lib/ocaml/3.10.2/vmthreads/threads.cma", {st_mode=S_IFREG|0644, st_size=11853, ...}) = 0
+30848 1240020434.068662 stat("/usr/lib/ocaml/3.10.2/threads/threads.cma", {st_mode=S_IFREG|0644, st_size=40133, ...}) = 0
+30848 1240020434.068803 stat("/usr/local/lib/ocaml/3.10.2/camlp4/META", 0x7fff3b883cf0) = -1 ENOENT (No such file or directory)
+30848 1240020434.068843 stat("/usr/local/lib/ocaml/3.10.2/META.camlp4", 0x7fff3b883cf0) = -1 ENOENT (No such file or directory)
+30848 1240020434.068880 stat("/usr/lib/ocaml/3.10.2/camlp4/META", 0x7fff3b883cf0) = -1 ENOENT (No such file or directory)
+30848 1240020434.068916 stat("/usr/lib/ocaml/3.10.2/META.camlp4", 0x7fff3b883cf0) = -1 ENOENT (No such file or directory)
+30848 1240020434.068958 stat("/usr/lib/ocaml/3.10.2/METAS/camlp4/META", 0x7fff3b883cf0) = -1 ENOENT (No such file or directory)
+30848 1240020434.068994 stat("/usr/lib/ocaml/3.10.2/METAS/META.camlp4", {st_mode=S_IFREG|0644, st_size=4826, ...}) = 0
+30848 1240020434.069047 open("/usr/lib/ocaml/3.10.2/METAS/META.camlp4", O_RDONLY) = 3
+30848 1240020434.069969 stat("/usr/local/lib/ocaml/3.10.2/unix/META", 0x7fff3b883c40) = -1 ENOENT (No such file or directory)
+30848 1240020434.070096 stat("/usr/local/lib/ocaml/3.10.2/META.unix", 0x7fff3b883c40) = -1 ENOENT (No such file or directory)
+30848 1240020434.070135 stat("/usr/lib/ocaml/3.10.2/unix/META", 0x7fff3b883c40) = -1 ENOENT (No such file or directory)
+30848 1240020434.070172 stat("/usr/lib/ocaml/3.10.2/META.unix", 0x7fff3b883c40) = -1 ENOENT (No such file or directory)
+30848 1240020434.070209 stat("/usr/lib/ocaml/3.10.2/METAS/unix/META", 0x7fff3b883c40) = -1 ENOENT (No such file or directory)
+30848 1240020434.070245 stat("/usr/lib/ocaml/3.10.2/METAS/META.unix", {st_mode=S_IFREG|0644, st_size=283, ...}) = 0
+30848 1240020434.070305 open("/usr/lib/ocaml/3.10.2/METAS/META.unix", O_RDONLY) = 3
+30848 1240020434.070729 stat("/usr/local/lib/ocaml/3.10.2", {st_mode=S_IFDIR|S_ISGID|0775, st_size=72, ...}) = 0
+30848 1240020434.070791 stat("/usr/lib/ocaml/3.10.2", {st_mode=S_IFDIR|0755, st_size=12352, ...}) = 0
+30848 1240020434.070843 stat("/usr/lib/ocaml/3.10.2/METAS", {st_mode=S_IFDIR|0755, st_size=640, ...}) = 0
+30848 1240020434.070899 stat("/usr/local/lib/ocaml/3.10.2/unix/META", 0x7fff3b883c80) = -1 ENOENT (No such file or directory)
+30848 1240020434.071033 stat("/usr/local/lib/ocaml/3.10.2/META.unix", 0x7fff3b883c80) = -1 ENOENT (No such file or directory)
+30848 1240020434.071073 stat("/usr/lib/ocaml/3.10.2/unix/META", 0x7fff3b883c80) = -1 ENOENT (No such file or directory)
+30848 1240020434.071109 stat("/usr/lib/ocaml/3.10.2/META.unix", 0x7fff3b883c80) = -1 ENOENT (No such file or directory)
+30848 1240020434.071166 stat("/usr/lib/ocaml/3.10.2/METAS/unix/META", 0x7fff3b883c80) = -1 ENOENT (No such file or directory)
+30848 1240020434.071203 stat("/usr/lib/ocaml/3.10.2/METAS/META.unix", {st_mode=S_IFREG|0644, st_size=283, ...}) = 0
+30848 1240020434.071262 stat("/usr/local/lib/ocaml/3.10.2/camlp4/META", 0x7fff3b883c80) = -1 ENOENT (No such file or directory)
+30848 1240020434.071299 stat("/usr/local/lib/ocaml/3.10.2/META.camlp4", 0x7fff3b883c80) = -1 ENOENT (No such file or directory)
+30848 1240020434.071336 stat("/usr/lib/ocaml/3.10.2/camlp4/META", 0x7fff3b883c80) = -1 ENOENT (No such file or directory)
+30848 1240020434.071372 stat("/usr/lib/ocaml/3.10.2/META.camlp4", 0x7fff3b883c80) = -1 ENOENT (No such file or directory)
+30848 1240020434.071409 stat("/usr/lib/ocaml/3.10.2/METAS/camlp4/META", 0x7fff3b883c80) = -1 ENOENT (No such file or directory)
+30848 1240020434.071500 stat("/usr/lib/ocaml/3.10.2/METAS/META.camlp4", {st_mode=S_IFREG|0644, st_size=4826, ...}) = 0
+30848 1240020434.071555 stat("/usr/local/lib/ocaml/3.10.2/threads/META", 0x7fff3b883c80) = -1 ENOENT (No such file or directory)
+30848 1240020434.071592 stat("/usr/local/lib/ocaml/3.10.2/META.threads", 0x7fff3b883c80) = -1 ENOENT (No such file or directory)
+30848 1240020434.071630 stat("/usr/lib/ocaml/3.10.2/threads/META", 0x7fff3b883c80) = -1 ENOENT (No such file or directory)
+30848 1240020434.071667 stat("/usr/lib/ocaml/3.10.2/META.threads", 0x7fff3b883c80) = -1 ENOENT (No such file or directory)
+30848 1240020434.071703 stat("/usr/lib/ocaml/3.10.2/METAS/threads/META", 0x7fff3b883c80) = -1 ENOENT (No such file or directory)
+30848 1240020434.071740 stat("/usr/lib/ocaml/3.10.2/METAS/META.threads", {st_mode=S_IFREG|0644, st_size=834, ...}) = 0
+30848 1240020434.071800 stat(".", {st_mode=S_IFDIR|0755, st_size=384, ...}) = 0
+30848 1240020434.071851 open(".", O_RDONLY|O_NONBLOCK|O_DIRECTORY|0x80000) = 3
+30848 1240020434.071972 stat("/usr/lib/ocaml/3.10.2", {st_mode=S_IFDIR|0755, st_size=12352, ...}) = 0
+30848 1240020434.072026 open("/usr/lib/ocaml/3.10.2", O_RDONLY|O_NONBLOCK|O_DIRECTORY|0x80000) = 3
+30848 1240020434.072454 open("/usr/lib/ocaml/3.10.2/ld.conf", O_RDONLY) = 3
+30848 1240020434.072568 open("/usr/local/lib/ocaml/3.10.2/stublibs", O_RDONLY|O_NONBLOCK|O_DIRECTORY|0x80000) = 3
+30848 1240020434.072661 open("/usr/lib/ocaml/3.10.2/stublibs", O_RDONLY|O_NONBLOCK|O_DIRECTORY|0x80000) = 3
+30848 1240020434.073052 clone( <unfinished ...>
+30846 1240020434.073340 wait4(-1, 0x7fffca99a5a4, WNOHANG, NULL) = 0
+30846 1240020434.073523 vfork( <unfinished ...>
+30848 1240020434.078690 <... clone resumed> child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x2b3a6fc40e70) = 30849
+30849 1240020434.079261 execve("/home/al/build/lisaac/bin/ocamlopt.opt", ["ocamlopt.opt", "-g", "-o", "build/percepio_parser.cmx", "-c", "-I", "/usr/lib/ocaml/3.10.2/camlp4", "-ccopt", "-I/usr/lib/ocaml/3.10.2/camlp4", "percepio_parser.ml"], [/* 40 vars */]) = -1 ENOENT (No such file or directory)
+30849 1240020434.079409 execve("/usr/local/sbin/ocamlopt.opt", ["ocamlopt.opt", "-g", "-o", "build/percepio_parser.cmx", "-c", "-I", "/usr/lib/ocaml/3.10.2/camlp4", "-ccopt", "-I/usr/lib/ocaml/3.10.2/camlp4", "percepio_parser.ml"], [/* 40 vars */]) = -1 ENOENT (No such file or directory)
+30849 1240020434.079513 execve("/usr/local/bin/ocamlopt.opt", ["ocamlopt.opt", "-g", "-o", "build/percepio_parser.cmx", "-c", "-I", "/usr/lib/ocaml/3.10.2/camlp4", "-ccopt", "-I/usr/lib/ocaml/3.10.2/camlp4", "percepio_parser.ml"], [/* 40 vars */]) = -1 ENOENT (No such file or directory)
+30849 1240020434.079617 execve("/usr/sbin/ocamlopt.opt", ["ocamlopt.opt", "-g", "-o", "build/percepio_parser.cmx", "-c", "-I", "/usr/lib/ocaml/3.10.2/camlp4", "-ccopt", "-I/usr/lib/ocaml/3.10.2/camlp4", "percepio_parser.ml"], [/* 40 vars */]) = -1 ENOENT (No such file or directory)
+30849 1240020434.079760 execve("/usr/bin/ocamlopt.opt", ["ocamlopt.opt", "-g", "-o", "build/percepio_parser.cmx", "-c", "-I", "/usr/lib/ocaml/3.10.2/camlp4", "-ccopt", "-I/usr/lib/ocaml/3.10.2/camlp4", "percepio_parser.ml"], [/* 40 vars */]) = 0
+30849 1240020434.080210 access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+30849 1240020434.080284 access("/etc/ld.so.preload", R_OK) = -1 ENOENT (No such file or directory)
+30849 1240020434.080332 open("/etc/ld.so.cache", O_RDONLY) = 3
+30849 1240020434.080411 access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+30849 1240020434.080458 open("/lib/libm.so.6", O_RDONLY) = 3
+30849 1240020434.080622 access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+30849 1240020434.080668 open("/lib/libdl.so.2", O_RDONLY) = 3
+30849 1240020434.080809 access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+30849 1240020434.080848 open("/lib/libc.so.6", O_RDONLY) = 3
+30849 1240020434.081081 arch_prctl(ARCH_SET_FS, 0x2ad5a4d15de0) = 0
+30849 1240020434.081593 readlink("/proc/self/exe", "/usr/bin/ocamlopt.opt", 256) = 21
+30849 1240020434.081688 stat("/usr/bin/ocamlopt.opt", {st_mode=S_IFREG|0755, st_size=2075848, ...}) = 0
+30849 1240020434.088524 stat("pervasives.cmi", 0x7fff067acbd0) = -1 ENOENT (No such file or directory)
+30849 1240020434.088772 stat("Pervasives.cmi", 0x7fff067acbd0) = -1 ENOENT (No such file or directory)
+30849 1240020434.088807 stat("/usr/lib/ocaml/3.10.2/camlp4/pervasives.cmi", 0x7fff067acbd0) = -1 ENOENT (No such file or directory)
+30849 1240020434.088851 stat("/usr/lib/ocaml/3.10.2/camlp4/Pervasives.cmi", 0x7fff067acbd0) = -1 ENOENT (No such file or directory)
+30849 1240020434.088890 stat("/usr/lib/ocaml/3.10.2/pervasives.cmi", {st_mode=S_IFREG|0644, st_size=13682, ...}) = 0
+30849 1240020434.088963 open("/usr/lib/ocaml/3.10.2/pervasives.cmi", O_RDONLY) = 3
+30849 1240020434.090511 open("percepio_parser.ml", O_RDONLY) = 3
+30849 1240020434.092715 stat("stream.cmi", 0x7fff067ac7d0) = -1 ENOENT (No such file or directory)
+30849 1240020434.092828 stat("Stream.cmi", 0x7fff067ac7d0) = -1 ENOENT (No such file or directory)
+30849 1240020434.092863 stat("/usr/lib/ocaml/3.10.2/camlp4/stream.cmi", 0x7fff067ac7d0) = -1 ENOENT (No such file or directory)
+30849 1240020434.092906 stat("/usr/lib/ocaml/3.10.2/camlp4/Stream.cmi", 0x7fff067ac7d0) = -1 ENOENT (No such file or directory)
+30849 1240020434.092944 stat("/usr/lib/ocaml/3.10.2/stream.cmi", {st_mode=S_IFREG|0644, st_size=1889, ...}) = 0
+30849 1240020434.093010 open("/usr/lib/ocaml/3.10.2/stream.cmi", O_RDONLY) = 3
+30849 1240020434.094152 stat("genlex.cmi", 0x7fff067ac8f0) = -1 ENOENT (No such file or directory)
+30849 1240020434.094252 stat("Genlex.cmi", 0x7fff067ac8f0) = -1 ENOENT (No such file or directory)
+30849 1240020434.094287 stat("/usr/lib/ocaml/3.10.2/camlp4/genlex.cmi", 0x7fff067ac8f0) = -1 ENOENT (No such file or directory)
+30849 1240020434.094329 stat("/usr/lib/ocaml/3.10.2/camlp4/Genlex.cmi", 0x7fff067ac8f0) = -1 ENOENT (No such file or directory)
+30849 1240020434.094367 stat("/usr/lib/ocaml/3.10.2/genlex.cmi", {st_mode=S_IFREG|0644, st_size=521, ...}) = 0
+30849 1240020434.094432 open("/usr/lib/ocaml/3.10.2/genlex.cmi", O_RDONLY) = 3
+30849 1240020434.094698 stat("printf.cmi", 0x7fff067ac7b0) = -1 ENOENT (No such file or directory)
+30849 1240020434.094737 stat("Printf.cmi", 0x7fff067ac7b0) = -1 ENOENT (No such file or directory)
+30849 1240020434.094771 stat("/usr/lib/ocaml/3.10.2/camlp4/printf.cmi", 0x7fff067ac7b0) = -1 ENOENT (No such file or directory)
+30849 1240020434.094808 stat("/usr/lib/ocaml/3.10.2/camlp4/Printf.cmi", 0x7fff067ac7b0) = -1 ENOENT (No such file or directory)
+30849 1240020434.094846 stat("/usr/lib/ocaml/3.10.2/printf.cmi", {st_mode=S_IFREG|0644, st_size=4742, ...}) = 0
+30849 1240020434.094923 open("/usr/lib/ocaml/3.10.2/printf.cmi", O_RDONLY) = 3
+30849 1240020434.095611 stat("percepio_parser.mli", 0x7fff067acbf0) = -1 ENOENT (No such file or directory)
+30849 1240020434.096054 open("build/percepio_parser.cmi", O_WRONLY|O_CREAT|O_TRUNC, 0666) = 3
+30849 1240020434.096331 open("build/percepio_parser.cmi", O_RDONLY) = 4
+30849 1240020434.096841 open("/tmp/camlasm40902a.s", O_WRONLY|O_CREAT|O_EXCL, 0600) = 3
+30849 1240020434.097058 open("/tmp/camlasm40902a.s", O_WRONLY|O_CREAT|O_TRUNC, 0666) = 3
+30849 1240020434.097177 stat("pervasives.cmx", 0x7fff067ac560) = -1 ENOENT (No such file or directory)
+30849 1240020434.097221 stat("Pervasives.cmx", 0x7fff067ac560) = -1 ENOENT (No such file or directory)
+30849 1240020434.097255 stat("/usr/lib/ocaml/3.10.2/camlp4/pervasives.cmx", 0x7fff067ac560) = -1 ENOENT (No such file or directory)
+30849 1240020434.097298 stat("/usr/lib/ocaml/3.10.2/camlp4/Pervasives.cmx", 0x7fff067ac560) = -1 ENOENT (No such file or directory)
+30849 1240020434.097337 stat("/usr/lib/ocaml/3.10.2/pervasives.cmx", {st_mode=S_IFREG|0644, st_size=4596, ...}) = 0
+30849 1240020434.097396 open("/usr/lib/ocaml/3.10.2/pervasives.cmx", O_RDONLY) = 4
+30849 1240020434.097603 stat("end_of_file.cmx", 0x7fff067ac5a0) = -1 ENOENT (No such file or directory)
+30849 1240020434.097639 stat("End_of_file.cmx", 0x7fff067ac5a0) = -1 ENOENT (No such file or directory)
+30849 1240020434.097673 stat("/usr/lib/ocaml/3.10.2/camlp4/end_of_file.cmx", 0x7fff067ac5a0) = -1 ENOENT (No such file or directory)
+30849 1240020434.097711 stat("/usr/lib/ocaml/3.10.2/camlp4/End_of_file.cmx", 0x7fff067ac5a0) = -1 ENOENT (No such file or directory)
+30849 1240020434.097750 stat("/usr/lib/ocaml/3.10.2/end_of_file.cmx", 0x7fff067ac5a0) = -1 ENOENT (No such file or directory)
+30849 1240020434.097787 stat("/usr/lib/ocaml/3.10.2/End_of_file.cmx", 0x7fff067ac5a0) = -1 ENOENT (No such file or directory)
+30849 1240020434.097839 stat("stream.cmx", 0x7fff067ac750) = -1 ENOENT (No such file or directory)
+30849 1240020434.097873 stat("Stream.cmx", 0x7fff067ac750) = -1 ENOENT (No such file or directory)
+30849 1240020434.097907 stat("/usr/lib/ocaml/3.10.2/camlp4/stream.cmx", 0x7fff067ac750) = -1 ENOENT (No such file or directory)
+30849 1240020434.097945 stat("/usr/lib/ocaml/3.10.2/camlp4/Stream.cmx", 0x7fff067ac750) = -1 ENOENT (No such file or directory)
+30849 1240020434.097982 stat("/usr/lib/ocaml/3.10.2/stream.cmx", {st_mode=S_IFREG|0644, st_size=1220, ...}) = 0
+30849 1240020434.098036 open("/usr/lib/ocaml/3.10.2/stream.cmx", O_RDONLY) = 4
+30849 1240020434.098148 stat("genlex.cmx", 0x7fff067ac940) = -1 ENOENT (No such file or directory)
+30849 1240020434.098184 stat("Genlex.cmx", 0x7fff067ac940) = -1 ENOENT (No such file or directory)
+30849 1240020434.098217 stat("/usr/lib/ocaml/3.10.2/camlp4/genlex.cmx", 0x7fff067ac940) = -1 ENOENT (No such file or directory)
+30849 1240020434.098254 stat("/usr/lib/ocaml/3.10.2/camlp4/Genlex.cmx", 0x7fff067ac940) = -1 ENOENT (No such file or directory)
+30849 1240020434.098292 stat("/usr/lib/ocaml/3.10.2/genlex.cmx", {st_mode=S_IFREG|0644, st_size=602, ...}) = 0
+30849 1240020434.098346 open("/usr/lib/ocaml/3.10.2/genlex.cmx", O_RDONLY) = 4
+30849 1240020434.098471 stat("printf.cmx", 0x7fff067ac5d0) = -1 ENOENT (No such file or directory)
+30849 1240020434.098508 stat("Printf.cmx", 0x7fff067ac5d0) = -1 ENOENT (No such file or directory)
+30849 1240020434.098541 stat("/usr/lib/ocaml/3.10.2/camlp4/printf.cmx", 0x7fff067ac5d0) = -1 ENOENT (No such file or directory)
+30849 1240020434.098578 stat("/usr/lib/ocaml/3.10.2/camlp4/Printf.cmx", 0x7fff067ac5d0) = -1 ENOENT (No such file or directory)
+30849 1240020434.098616 stat("/usr/lib/ocaml/3.10.2/printf.cmx", {st_mode=S_IFREG|0644, st_size=2167, ...}) = 0
+30849 1240020434.098670 open("/usr/lib/ocaml/3.10.2/printf.cmx", O_RDONLY) = 4
+30848 1240020434.099520 wait4(30849,  <unfinished ...>
+30846 1240020434.103534 <... vfork resumed> ) = 30850
+30846 1240020434.335998 wait4(-1,  <unfinished ...>
+30850 1240020434.389962 execve("/home/al/build/lisaac/bin/ocamlfind", ["ocamlfind", "ocamlc", "-g", "-package", "camlp4", "-o", "build/percepio_parser.cmo", "-c", "percepio_parser.ml"], [/* 40 vars */]) = -1 ENOENT (No such file or directory)
+30850 1240020434.390179 execve("/usr/local/sbin/ocamlfind", ["ocamlfind", "ocamlc", "-g", "-package", "camlp4", "-o", "build/percepio_parser.cmo", "-c", "percepio_parser.ml"], [/* 40 vars */]) = -1 ENOENT (No such file or directory)
+30850 1240020434.390284 execve("/usr/local/bin/ocamlfind", ["ocamlfind", "ocamlc", "-g", "-package", "camlp4", "-o", "build/percepio_parser.cmo", "-c", "percepio_parser.ml"], [/* 40 vars */]) = -1 ENOENT (No such file or directory)
+30850 1240020434.390384 execve("/usr/sbin/ocamlfind", ["ocamlfind", "ocamlc", "-g", "-package", "camlp4", "-o", "build/percepio_parser.cmo", "-c", "percepio_parser.ml"], [/* 40 vars */]) = -1 ENOENT (No such file or directory)
+30850 1240020434.390481 execve("/usr/bin/ocamlfind", ["ocamlfind", "ocamlc", "-g", "-package", "camlp4", "-o", "build/percepio_parser.cmo", "-c", "percepio_parser.ml"], [/* 40 vars */]) = 0
+30850 1240020434.390927 access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+30850 1240020434.391000 access("/etc/ld.so.preload", R_OK) = -1 ENOENT (No such file or directory)
+30850 1240020434.391054 open("/etc/ld.so.cache", O_RDONLY) = 3
+30850 1240020434.391154 access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+30850 1240020434.391201 open("/lib/libm.so.6", O_RDONLY) = 3
+30850 1240020434.391362 access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+30850 1240020434.391408 open("/lib/libdl.so.2", O_RDONLY) = 3
+30850 1240020434.391562 access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+30850 1240020434.391601 open("/lib/libc.so.6", O_RDONLY) = 3
+30850 1240020434.391882 arch_prctl(ARCH_SET_FS, 0x2b98237ecde0) = 0
+30850 1240020434.392399 readlink("/proc/self/exe", "/usr/bin/ocamlfind", 256) = 18
+30850 1240020434.392495 stat("/usr/bin/ocamlfind", {st_mode=S_IFREG|0755, st_size=540256, ...}) = 0
+30850 1240020434.393167 stat("/etc/ocamlfind.conf", {st_mode=S_IFREG|0644, st_size=123, ...}) = 0
+30850 1240020434.393252 open("/etc/ocamlfind.conf", O_RDONLY) = 3
+30850 1240020434.393408 stat("/usr/share/ocaml-findlib/", {st_mode=S_IFDIR|0755, st_size=96, ...}) = 0
+30850 1240020434.393466 open("/usr/share/ocaml-findlib/", O_RDONLY|O_NONBLOCK|O_DIRECTORY|0x80000) = 3
+30850 1240020434.393597 open("/usr/share/ocaml-findlib/ocaml-native-compilers.conf", O_RDONLY) = 3
+30850 1240020434.393716 stat("/etc/ocamlfind.conf.d", 0x7fff87cd8230) = -1 ENOENT (No such file or directory)
+30850 1240020434.393983 stat("/usr/local/lib/ocaml/3.10.2/threads/META", 0x7fff87cd8160) = -1 ENOENT (No such file or directory)
+30850 1240020434.394031 stat("/usr/local/lib/ocaml/3.10.2/META.threads", 0x7fff87cd8160) = -1 ENOENT (No such file or directory)
+30850 1240020434.394070 stat("/usr/lib/ocaml/3.10.2/threads/META", 0x7fff87cd8160) = -1 ENOENT (No such file or directory)
+30850 1240020434.394110 stat("/usr/lib/ocaml/3.10.2/META.threads", 0x7fff87cd8160) = -1 ENOENT (No such file or directory)
+30850 1240020434.394147 stat("/usr/lib/ocaml/3.10.2/METAS/threads/META", 0x7fff87cd8160) = -1 ENOENT (No such file or directory)
+30850 1240020434.394185 stat("/usr/lib/ocaml/3.10.2/METAS/META.threads", {st_mode=S_IFREG|0644, st_size=834, ...}) = 0
+30850 1240020434.394240 open("/usr/lib/ocaml/3.10.2/METAS/META.threads", O_RDONLY) = 3
+30850 1240020434.394476 stat("/usr/lib/ocaml/3.10.2/vmthreads/threads.cma", {st_mode=S_IFREG|0644, st_size=11853, ...}) = 0
+30850 1240020434.394535 stat("/usr/lib/ocaml/3.10.2/threads/threads.cma", {st_mode=S_IFREG|0644, st_size=40133, ...}) = 0
+30850 1240020434.394661 stat("/usr/local/lib/ocaml/3.10.2/camlp4/META", 0x7fff87cd8140) = -1 ENOENT (No such file or directory)
+30850 1240020434.394701 stat("/usr/local/lib/ocaml/3.10.2/META.camlp4", 0x7fff87cd8140) = -1 ENOENT (No such file or directory)
+30850 1240020434.394739 stat("/usr/lib/ocaml/3.10.2/camlp4/META", 0x7fff87cd8140) = -1 ENOENT (No such file or directory)
+30850 1240020434.394775 stat("/usr/lib/ocaml/3.10.2/META.camlp4", 0x7fff87cd8140) = -1 ENOENT (No such file or directory)
+30850 1240020434.394856 stat("/usr/lib/ocaml/3.10.2/METAS/camlp4/META", 0x7fff87cd8140) = -1 ENOENT (No such file or directory)
+30850 1240020434.394913 stat("/usr/lib/ocaml/3.10.2/METAS/META.camlp4", {st_mode=S_IFREG|0644, st_size=4826, ...}) = 0
+30850 1240020434.394966 open("/usr/lib/ocaml/3.10.2/METAS/META.camlp4", O_RDONLY) = 3
+30850 1240020434.396285 stat("/usr/local/lib/ocaml/3.10.2/unix/META", 0x7fff87cd8090) = -1 ENOENT (No such file or directory)
+30850 1240020434.396380 stat("/usr/local/lib/ocaml/3.10.2/META.unix", 0x7fff87cd8090) = -1 ENOENT (No such file or directory)
+30850 1240020434.396419 stat("/usr/lib/ocaml/3.10.2/unix/META", 0x7fff87cd8090) = -1 ENOENT (No such file or directory)
+30850 1240020434.396457 stat("/usr/lib/ocaml/3.10.2/META.unix", 0x7fff87cd8090) = -1 ENOENT (No such file or directory)
+30850 1240020434.396494 stat("/usr/lib/ocaml/3.10.2/METAS/unix/META", 0x7fff87cd8090) = -1 ENOENT (No such file or directory)
+30850 1240020434.396532 stat("/usr/lib/ocaml/3.10.2/METAS/META.unix", {st_mode=S_IFREG|0644, st_size=283, ...}) = 0
+30850 1240020434.396595 open("/usr/lib/ocaml/3.10.2/METAS/META.unix", O_RDONLY) = 3
+30850 1240020434.397094 stat("/usr/local/lib/ocaml/3.10.2", {st_mode=S_IFDIR|S_ISGID|0775, st_size=72, ...}) = 0
+30850 1240020434.397154 stat("/usr/lib/ocaml/3.10.2", {st_mode=S_IFDIR|0755, st_size=12352, ...}) = 0
+30850 1240020434.397205 stat("/usr/lib/ocaml/3.10.2/METAS", {st_mode=S_IFDIR|0755, st_size=640, ...}) = 0
+30850 1240020434.397260 stat("/usr/local/lib/ocaml/3.10.2/unix/META", 0x7fff87cd80d0) = -1 ENOENT (No such file or directory)
+30850 1240020434.397298 stat("/usr/local/lib/ocaml/3.10.2/META.unix", 0x7fff87cd80d0) = -1 ENOENT (No such file or directory)
+30850 1240020434.397336 stat("/usr/lib/ocaml/3.10.2/unix/META", 0x7fff87cd80d0) = -1 ENOENT (No such file or directory)
+30850 1240020434.397371 stat("/usr/lib/ocaml/3.10.2/META.unix", 0x7fff87cd80d0) = -1 ENOENT (No such file or directory)
+30850 1240020434.397407 stat("/usr/lib/ocaml/3.10.2/METAS/unix/META", 0x7fff87cd80d0) = -1 ENOENT (No such file or directory)
+30850 1240020434.397443 stat("/usr/lib/ocaml/3.10.2/METAS/META.unix", {st_mode=S_IFREG|0644, st_size=283, ...}) = 0
+30850 1240020434.397502 stat("/usr/local/lib/ocaml/3.10.2/camlp4/META", 0x7fff87cd80d0) = -1 ENOENT (No such file or directory)
+30850 1240020434.397539 stat("/usr/local/lib/ocaml/3.10.2/META.camlp4", 0x7fff87cd80d0) = -1 ENOENT (No such file or directory)
+30850 1240020434.397576 stat("/usr/lib/ocaml/3.10.2/camlp4/META", 0x7fff87cd80d0) = -1 ENOENT (No such file or directory)
+30850 1240020434.397613 stat("/usr/lib/ocaml/3.10.2/META.camlp4", 0x7fff87cd80d0) = -1 ENOENT (No such file or directory)
+30850 1240020434.397650 stat("/usr/lib/ocaml/3.10.2/METAS/camlp4/META", 0x7fff87cd80d0) = -1 ENOENT (No such file or directory)
+30850 1240020434.397687 stat("/usr/lib/ocaml/3.10.2/METAS/META.camlp4", {st_mode=S_IFREG|0644, st_size=4826, ...}) = 0
+30850 1240020434.397741 stat("/usr/local/lib/ocaml/3.10.2/threads/META", 0x7fff87cd80d0) = -1 ENOENT (No such file or directory)
+30850 1240020434.397778 stat("/usr/local/lib/ocaml/3.10.2/META.threads", 0x7fff87cd80d0) = -1 ENOENT (No such file or directory)
+30850 1240020434.397816 stat("/usr/lib/ocaml/3.10.2/threads/META", 0x7fff87cd80d0) = -1 ENOENT (No such file or directory)
+30850 1240020434.397853 stat("/usr/lib/ocaml/3.10.2/META.threads", 0x7fff87cd80d0) = -1 ENOENT (No such file or directory)
+30850 1240020434.397890 stat("/usr/lib/ocaml/3.10.2/METAS/threads/META", 0x7fff87cd80d0) = -1 ENOENT (No such file or directory)
+30850 1240020434.397928 stat("/usr/lib/ocaml/3.10.2/METAS/META.threads", {st_mode=S_IFREG|0644, st_size=834, ...}) = 0
+30850 1240020434.397987 stat(".", {st_mode=S_IFDIR|0755, st_size=384, ...}) = 0
+30850 1240020434.398037 open(".", O_RDONLY|O_NONBLOCK|O_DIRECTORY|0x80000) = 3
+30850 1240020434.398159 stat("/usr/lib/ocaml/3.10.2", {st_mode=S_IFDIR|0755, st_size=12352, ...}) = 0
+30850 1240020434.398214 open("/usr/lib/ocaml/3.10.2", O_RDONLY|O_NONBLOCK|O_DIRECTORY|0x80000) = 3
+30850 1240020434.398683 open("/usr/lib/ocaml/3.10.2/ld.conf", O_RDONLY) = 3
+30850 1240020434.398799 open("/usr/local/lib/ocaml/3.10.2/stublibs", O_RDONLY|O_NONBLOCK|O_DIRECTORY|0x80000) = 3
+30850 1240020434.398893 open("/usr/lib/ocaml/3.10.2/stublibs", O_RDONLY|O_NONBLOCK|O_DIRECTORY|0x80000) = 3
+30850 1240020434.399304 clone(child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x2b98237ece70) = 30851
+30850 1240020434.400296 wait4(30851,  <unfinished ...>
+30851 1240020434.400576 execve("/home/al/build/lisaac/bin/ocamlc.opt", ["ocamlc.opt", "-g", "-o", "build/percepio_parser.cmo", "-c", "-I", "/usr/lib/ocaml/3.10.2/camlp4", "-ccopt", "-I/usr/lib/ocaml/3.10.2/camlp4", "percepio_parser.ml"], [/* 40 vars */]) = -1 ENOENT (No such file or directory)
+30851 1240020434.400714 execve("/usr/local/sbin/ocamlc.opt", ["ocamlc.opt", "-g", "-o", "build/percepio_parser.cmo", "-c", "-I", "/usr/lib/ocaml/3.10.2/camlp4", "-ccopt", "-I/usr/lib/ocaml/3.10.2/camlp4", "percepio_parser.ml"], [/* 40 vars */]) = -1 ENOENT (No such file or directory)
+30851 1240020434.400819 execve("/usr/local/bin/ocamlc.opt", ["ocamlc.opt", "-g", "-o", "build/percepio_parser.cmo", "-c", "-I", "/usr/lib/ocaml/3.10.2/camlp4", "-ccopt", "-I/usr/lib/ocaml/3.10.2/camlp4", "percepio_parser.ml"], [/* 40 vars */]) = -1 ENOENT (No such file or directory)
+30851 1240020434.400921 execve("/usr/sbin/ocamlc.opt", ["ocamlc.opt", "-g", "-o", "build/percepio_parser.cmo", "-c", "-I", "/usr/lib/ocaml/3.10.2/camlp4", "-ccopt", "-I/usr/lib/ocaml/3.10.2/camlp4", "percepio_parser.ml"], [/* 40 vars */]) = -1 ENOENT (No such file or directory)
+30851 1240020434.401023 execve("/usr/bin/ocamlc.opt", ["ocamlc.opt", "-g", "-o", "build/percepio_parser.cmo", "-c", "-I", "/usr/lib/ocaml/3.10.2/camlp4", "-ccopt", "-I/usr/lib/ocaml/3.10.2/camlp4", "percepio_parser.ml"], [/* 40 vars */]) = 0
+30851 1240020434.401583 access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+30851 1240020434.401665 access("/etc/ld.so.preload", R_OK) = -1 ENOENT (No such file or directory)
+30851 1240020434.401714 open("/etc/ld.so.cache", O_RDONLY) = 3
+30851 1240020434.401794 access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+30851 1240020434.401841 open("/lib/libm.so.6", O_RDONLY) = 3
+30851 1240020434.401997 access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+30851 1240020434.402043 open("/lib/libdl.so.2", O_RDONLY) = 3
+30851 1240020434.402192 access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+30851 1240020434.402231 open("/lib/libncurses.so.5", O_RDONLY) = 3
+30851 1240020434.402395 access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+30851 1240020434.402440 open("/lib/libpthread.so.0", O_RDONLY) = 3
+30851 1240020434.402627 access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+30851 1240020434.402666 open("/lib/libc.so.6", O_RDONLY) = 3
+30851 1240020434.402890 arch_prctl(ARCH_SET_FS, 0x2b7282dddd00) = 0
+30851 1240020434.403689 readlink("/proc/self/exe", "/usr/bin/ocamlc.opt", 256) = 19
+30851 1240020434.403798 stat("/usr/bin/ocamlc.opt", {st_mode=S_IFREG|0755, st_size=2115712, ...}) = 0
+30849 1240020435.079427 clone(child_stack=0, flags=CLONE_PARENT_SETTID|SIGCHLD, parent_tidptr=0x7fff067acbd8) = 30853
+30849 1240020435.080039 wait4(30853,  <unfinished ...>
+30853 1240020435.080118 execve("/bin/sh", ["sh", "-c", "as -o build/percepio_parser.o /tmp/camlasm40902a.s"], [/* 40 vars */]) = 0
+30853 1240020435.080625 access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+30853 1240020435.080706 access("/etc/ld.so.preload", R_OK) = -1 ENOENT (No such file or directory)
+30853 1240020435.080755 open("/etc/ld.so.cache", O_RDONLY) = 3
+30853 1240020435.080843 access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+30853 1240020435.080887 open("/lib/libc.so.6", O_RDONLY) = 3
+30853 1240020435.081103 arch_prctl(ARCH_SET_FS, 0x2b1a18cc06e0) = 0
+30853 1240020435.081541 stat("/home/al/src/percipio", {st_mode=S_IFDIR|0755, st_size=384, ...}) = 0
+30853 1240020435.081655 stat(".", {st_mode=S_IFDIR|0755, st_size=384, ...}) = 0
+30853 1240020435.081813 stat("/home/al/build/lisaac/bin/as", 0x7fff92378800) = -1 ENOENT (No such file or directory)
+30853 1240020435.081858 stat("/usr/local/sbin/as", 0x7fff92378800) = -1 ENOENT (No such file or directory)
+30853 1240020435.081897 stat("/usr/local/bin/as", 0x7fff92378800) = -1 ENOENT (No such file or directory)
+30853 1240020435.081934 stat("/usr/sbin/as", 0x7fff92378800) = -1 ENOENT (No such file or directory)
+30853 1240020435.081970 stat("/usr/bin/as", {st_mode=S_IFREG|0755, st_size=319528, ...}) = 0
+30853 1240020435.082032 clone(child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x2b1a18cc0770) = 30854
+30853 1240020435.082412 wait4(4294967295,  <unfinished ...>
+30854 1240020435.082511 execve("/usr/bin/as", ["as", "-o", "build/percepio_parser.o", "/tmp/camlasm40902a.s"], [/* 40 vars */]) = 0
+30854 1240020435.082917 access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+30854 1240020435.082995 access("/etc/ld.so.preload", R_OK) = -1 ENOENT (No such file or directory)
+30854 1240020435.083045 open("/etc/ld.so.cache", O_RDONLY) = 3
+30854 1240020435.083148 access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+30854 1240020435.083196 open("/usr/lib/libopcodes-2.18.93.20081009.so", O_RDONLY) = 3
+30854 1240020435.083368 access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+30854 1240020435.083418 open("/usr/lib/libbfd-2.18.93.20081009.so", O_RDONLY) = 3
+30854 1240020435.083588 access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+30854 1240020435.083632 open("/usr/lib/libz.so.1", O_RDONLY) = 3
+30854 1240020435.083793 access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+30854 1240020435.083833 open("/lib/libc.so.6", O_RDONLY) = 3
+30854 1240020435.084065 arch_prctl(ARCH_SET_FS, 0x2b054628e6e0) = 0
+30851 1240020435.178143 stat("pervasives.cmi", 0x7fff28b3ce40) = -1 ENOENT (No such file or directory)
+30851 1240020435.178259 stat("Pervasives.cmi", 0x7fff28b3ce40) = -1 ENOENT (No such file or directory)
+30851 1240020435.178294 stat("/usr/lib/ocaml/3.10.2/camlp4/pervasives.cmi", 0x7fff28b3ce40) = -1 ENOENT (No such file or directory)
+30851 1240020435.178338 stat("/usr/lib/ocaml/3.10.2/camlp4/Pervasives.cmi", 0x7fff28b3ce40) = -1 ENOENT (No such file or directory)
+30851 1240020435.178378 stat("/usr/lib/ocaml/3.10.2/pervasives.cmi", {st_mode=S_IFREG|0644, st_size=13682, ...}) = 0
+30851 1240020435.178453 open("/usr/lib/ocaml/3.10.2/pervasives.cmi", O_RDONLY) = 3
+30851 1240020435.564977 open("build/percepio_parser.cmo", O_WRONLY|O_CREAT|O_TRUNC, 0666) = 3
+30851 1240020435.565212 open("percepio_parser.ml", O_RDONLY) = 4
+30851 1240020435.566700 stat("stream.cmi", 0x7fff28b3ca40) = -1 ENOENT (No such file or directory)
+30851 1240020435.566813 stat("Stream.cmi", 0x7fff28b3ca40) = -1 ENOENT (No such file or directory)
+30851 1240020435.566850 stat("/usr/lib/ocaml/3.10.2/camlp4/stream.cmi", 0x7fff28b3ca40) = -1 ENOENT (No such file or directory)
+30851 1240020435.566894 stat("/usr/lib/ocaml/3.10.2/camlp4/Stream.cmi", 0x7fff28b3ca40) = -1 ENOENT (No such file or directory)
+30851 1240020435.567227 stat("/usr/lib/ocaml/3.10.2/stream.cmi", {st_mode=S_IFREG|0644, st_size=1889, ...}) = 0
+30851 1240020435.567295 open("/usr/lib/ocaml/3.10.2/stream.cmi", O_RDONLY) = 4
+30851 1240020435.567556 stat("genlex.cmi", 0x7fff28b3cb60) = -1 ENOENT (No such file or directory)
+30851 1240020435.567595 stat("Genlex.cmi", 0x7fff28b3cb60) = -1 ENOENT (No such file or directory)
+30851 1240020435.567630 stat("/usr/lib/ocaml/3.10.2/camlp4/genlex.cmi", 0x7fff28b3cb60) = -1 ENOENT (No such file or directory)
+30851 1240020435.567668 stat("/usr/lib/ocaml/3.10.2/camlp4/Genlex.cmi", 0x7fff28b3cb60) = -1 ENOENT (No such file or directory)
+30851 1240020435.567706 stat("/usr/lib/ocaml/3.10.2/genlex.cmi", {st_mode=S_IFREG|0644, st_size=521, ...}) = 0
+30851 1240020435.567761 open("/usr/lib/ocaml/3.10.2/genlex.cmi", O_RDONLY) = 4
+30851 1240020435.568871 stat("printf.cmi", 0x7fff28b3ca20) = -1 ENOENT (No such file or directory)
+30851 1240020435.569139 stat("Printf.cmi", 0x7fff28b3ca20) = -1 ENOENT (No such file or directory)
+30851 1240020435.569176 stat("/usr/lib/ocaml/3.10.2/camlp4/printf.cmi", 0x7fff28b3ca20) = -1 ENOENT (No such file or directory)
+30851 1240020435.569219 stat("/usr/lib/ocaml/3.10.2/camlp4/Printf.cmi", 0x7fff28b3ca20) = -1 ENOENT (No such file or directory)
+30851 1240020435.569258 stat("/usr/lib/ocaml/3.10.2/printf.cmi", {st_mode=S_IFREG|0644, st_size=4742, ...}) = 0
+30851 1240020435.569327 open("/usr/lib/ocaml/3.10.2/printf.cmi", O_RDONLY) = 4
+30851 1240020435.569956 stat("percepio_parser.mli", 0x7fff28b3ce60) = -1 ENOENT (No such file or directory)
+30851 1240020435.570406 open("build/percepio_parser.cmi", O_WRONLY|O_CREAT|O_TRUNC, 0666) = 4
+30851 1240020435.570725 open("build/percepio_parser.cmi", O_RDONLY) = 5
+30851 1240020435.572103 exit_group(0)   = ?
+30850 1240020435.572682 <... wait4 resumed> [{WIFEXITED(s) && WEXITSTATUS(s) == 0}], 0, NULL) = 30851
+30850 1240020435.572715 --- SIGCHLD (Child exited) @ 0 (0) ---
+30850 1240020435.572816 exit_group(0)   = ?
+30846 1240020435.573152 <... wait4 resumed> [{WIFEXITED(s) && WEXITSTATUS(s) == 0}], 0, NULL) = 30850
+30846 1240020435.573173 --- SIGCHLD (Child exited) @ 0 (0) ---
+30846 1240020435.573243 wait4(-1, 0x7fffca99a894, WNOHANG, NULL) = 0
+30846 1240020435.573286 stat("build/percepio_parser.cmo", {st_mode=S_IFREG|0644, st_size=4266, ...}) = 0
+30846 1240020435.573403 wait4(-1, 0x7fffca99a694, WNOHANG, NULL) = 0
+30846 1240020435.573575 vfork()         = 30855
+30846 1240020435.573943 wait4(-1,  <unfinished ...>
+30855 1240020435.574081 execve("/home/al/build/lisaac/bin/ocamlfind", ["ocamlfind", "ocamlc", "-g", "-linkpkg", "-package", "camlp4", "-o", "build/percepio_parser.byte", "build/percepio_parser.cmo"], [/* 40 vars */]) = -1 ENOENT (No such file or directory)
+30855 1240020435.574211 execve("/usr/local/sbin/ocamlfind", ["ocamlfind", "ocamlc", "-g", "-linkpkg", "-package", "camlp4", "-o", "build/percepio_parser.byte", "build/percepio_parser.cmo"], [/* 40 vars */]) = -1 ENOENT (No such file or directory)
+30855 1240020435.574315 execve("/usr/local/bin/ocamlfind", ["ocamlfind", "ocamlc", "-g", "-linkpkg", "-package", "camlp4", "-o", "build/percepio_parser.byte", "build/percepio_parser.cmo"], [/* 40 vars */]) = -1 ENOENT (No such file or directory)
+30855 1240020435.574414 execve("/usr/sbin/ocamlfind", ["ocamlfind", "ocamlc", "-g", "-linkpkg", "-package", "camlp4", "-o", "build/percepio_parser.byte", "build/percepio_parser.cmo"], [/* 40 vars */]) = -1 ENOENT (No such file or directory)
+30855 1240020435.574513 execve("/usr/bin/ocamlfind", ["ocamlfind", "ocamlc", "-g", "-linkpkg", "-package", "camlp4", "-o", "build/percepio_parser.byte", "build/percepio_parser.cmo"], [/* 40 vars */]) = 0
+30855 1240020435.575322 access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+30855 1240020435.575412 access("/etc/ld.so.preload", R_OK) = -1 ENOENT (No such file or directory)
+30855 1240020435.575475 open("/etc/ld.so.cache", O_RDONLY) = 3
+30855 1240020435.575561 access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+30855 1240020435.575608 open("/lib/libm.so.6", O_RDONLY) = 3
+30855 1240020435.575792 access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+30855 1240020435.575838 open("/lib/libdl.so.2", O_RDONLY) = 3
+30855 1240020435.576013 access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+30855 1240020435.576053 open("/lib/libc.so.6", O_RDONLY) = 3
+30855 1240020435.576271 arch_prctl(ARCH_SET_FS, 0x2af83f2b8de0) = 0
+30855 1240020435.576784 readlink("/proc/self/exe", "/usr/bin/ocamlfind", 256) = 18
+30855 1240020435.576877 stat("/usr/bin/ocamlfind", {st_mode=S_IFREG|0755, st_size=540256, ...}) = 0
+30855 1240020435.577558 stat("/etc/ocamlfind.conf", {st_mode=S_IFREG|0644, st_size=123, ...}) = 0
+30855 1240020435.577642 open("/etc/ocamlfind.conf", O_RDONLY) = 3
+30855 1240020435.577809 stat("/usr/share/ocaml-findlib/", {st_mode=S_IFDIR|0755, st_size=96, ...}) = 0
+30855 1240020435.577913 open("/usr/share/ocaml-findlib/", O_RDONLY|O_NONBLOCK|O_DIRECTORY|0x80000) = 3
+30855 1240020435.578048 open("/usr/share/ocaml-findlib/ocaml-native-compilers.conf", O_RDONLY) = 3
+30855 1240020435.578174 stat("/etc/ocamlfind.conf.d", 0x7fff6c209760) = -1 ENOENT (No such file or directory)
+30855 1240020435.578321 stat("/usr/local/lib/ocaml/3.10.2/threads/META", 0x7fff6c209690) = -1 ENOENT (No such file or directory)
+30855 1240020435.578367 stat("/usr/local/lib/ocaml/3.10.2/META.threads", 0x7fff6c209690) = -1 ENOENT (No such file or directory)
+30855 1240020435.578406 stat("/usr/lib/ocaml/3.10.2/threads/META", 0x7fff6c209690) = -1 ENOENT (No such file or directory)
+30855 1240020435.578446 stat("/usr/lib/ocaml/3.10.2/META.threads", 0x7fff6c209690) = -1 ENOENT (No such file or directory)
+30855 1240020435.578483 stat("/usr/lib/ocaml/3.10.2/METAS/threads/META", 0x7fff6c209690) = -1 ENOENT (No such file or directory)
+30855 1240020435.578521 stat("/usr/lib/ocaml/3.10.2/METAS/META.threads", {st_mode=S_IFREG|0644, st_size=834, ...}) = 0
+30855 1240020435.578577 open("/usr/lib/ocaml/3.10.2/METAS/META.threads", O_RDONLY) = 3
+30855 1240020435.578819 stat("/usr/lib/ocaml/3.10.2/vmthreads/threads.cma", {st_mode=S_IFREG|0644, st_size=11853, ...}) = 0
+30855 1240020435.578878 stat("/usr/lib/ocaml/3.10.2/threads/threads.cma", {st_mode=S_IFREG|0644, st_size=40133, ...}) = 0
+30855 1240020435.579005 stat("/usr/local/lib/ocaml/3.10.2/camlp4/META", 0x7fff6c209670) = -1 ENOENT (No such file or directory)
+30855 1240020435.579044 stat("/usr/local/lib/ocaml/3.10.2/META.camlp4", 0x7fff6c209670) = -1 ENOENT (No such file or directory)
+30855 1240020435.579083 stat("/usr/lib/ocaml/3.10.2/camlp4/META", 0x7fff6c209670) = -1 ENOENT (No such file or directory)
+30855 1240020435.579142 stat("/usr/lib/ocaml/3.10.2/META.camlp4", 0x7fff6c209670) = -1 ENOENT (No such file or directory)
+30855 1240020435.579181 stat("/usr/lib/ocaml/3.10.2/METAS/camlp4/META", 0x7fff6c209670) = -1 ENOENT (No such file or directory)
+30855 1240020435.579218 stat("/usr/lib/ocaml/3.10.2/METAS/META.camlp4", {st_mode=S_IFREG|0644, st_size=4826, ...}) = 0
+30855 1240020435.579272 open("/usr/lib/ocaml/3.10.2/METAS/META.camlp4", O_RDONLY) = 3
+30855 1240020435.580082 stat("/usr/local/lib/ocaml/3.10.2/unix/META", 0x7fff6c2095c0) = -1 ENOENT (No such file or directory)
+30855 1240020435.580255 stat("/usr/local/lib/ocaml/3.10.2/META.unix", 0x7fff6c2095c0) = -1 ENOENT (No such file or directory)
+30855 1240020435.580294 stat("/usr/lib/ocaml/3.10.2/unix/META", 0x7fff6c2095c0) = -1 ENOENT (No such file or directory)
+30855 1240020435.580331 stat("/usr/lib/ocaml/3.10.2/META.unix", 0x7fff6c2095c0) = -1 ENOENT (No such file or directory)
+30855 1240020435.580369 stat("/usr/lib/ocaml/3.10.2/METAS/unix/META", 0x7fff6c2095c0) = -1 ENOENT (No such file or directory)
+30855 1240020435.580406 stat("/usr/lib/ocaml/3.10.2/METAS/META.unix", {st_mode=S_IFREG|0644, st_size=283, ...}) = 0
+30855 1240020435.580466 open("/usr/lib/ocaml/3.10.2/METAS/META.unix", O_RDONLY) = 3
+30855 1240020435.580823 stat("/usr/local/lib/ocaml/3.10.2", {st_mode=S_IFDIR|S_ISGID|0775, st_size=72, ...}) = 0
+30855 1240020435.580883 stat("/usr/lib/ocaml/3.10.2", {st_mode=S_IFDIR|0755, st_size=12352, ...}) = 0
+30855 1240020435.580935 stat("/usr/lib/ocaml/3.10.2/METAS", {st_mode=S_IFDIR|0755, st_size=640, ...}) = 0
+30855 1240020435.580990 stat("/usr/local/lib/ocaml/3.10.2/unix/META", 0x7fff6c209600) = -1 ENOENT (No such file or directory)
+30855 1240020435.581029 stat("/usr/local/lib/ocaml/3.10.2/META.unix", 0x7fff6c209600) = -1 ENOENT (No such file or directory)
+30855 1240020435.581068 stat("/usr/lib/ocaml/3.10.2/unix/META", 0x7fff6c209600) = -1 ENOENT (No such file or directory)
+30855 1240020435.581104 stat("/usr/lib/ocaml/3.10.2/META.unix", 0x7fff6c209600) = -1 ENOENT (No such file or directory)
+30855 1240020435.581141 stat("/usr/lib/ocaml/3.10.2/METAS/unix/META", 0x7fff6c209600) = -1 ENOENT (No such file or directory)
+30855 1240020435.581178 stat("/usr/lib/ocaml/3.10.2/METAS/META.unix", {st_mode=S_IFREG|0644, st_size=283, ...}) = 0
+30855 1240020435.581279 stat("/usr/local/lib/ocaml/3.10.2/camlp4/META", 0x7fff6c209600) = -1 ENOENT (No such file or directory)
+30855 1240020435.581317 stat("/usr/local/lib/ocaml/3.10.2/META.camlp4", 0x7fff6c209600) = -1 ENOENT (No such file or directory)
+30855 1240020435.581355 stat("/usr/lib/ocaml/3.10.2/camlp4/META", 0x7fff6c209600) = -1 ENOENT (No such file or directory)
+30855 1240020435.581393 stat("/usr/lib/ocaml/3.10.2/META.camlp4", 0x7fff6c209600) = -1 ENOENT (No such file or directory)
+30855 1240020435.581431 stat("/usr/lib/ocaml/3.10.2/METAS/camlp4/META", 0x7fff6c209600) = -1 ENOENT (No such file or directory)
+30855 1240020435.581468 stat("/usr/lib/ocaml/3.10.2/METAS/META.camlp4", {st_mode=S_IFREG|0644, st_size=4826, ...}) = 0
+30855 1240020435.581524 stat("/usr/local/lib/ocaml/3.10.2/threads/META", 0x7fff6c209600) = -1 ENOENT (No such file or directory)
+30855 1240020435.581562 stat("/usr/local/lib/ocaml/3.10.2/META.threads", 0x7fff6c209600) = -1 ENOENT (No such file or directory)
+30855 1240020435.581601 stat("/usr/lib/ocaml/3.10.2/threads/META", 0x7fff6c209600) = -1 ENOENT (No such file or directory)
+30855 1240020435.581638 stat("/usr/lib/ocaml/3.10.2/META.threads", 0x7fff6c209600) = -1 ENOENT (No such file or directory)
+30855 1240020435.581676 stat("/usr/lib/ocaml/3.10.2/METAS/threads/META", 0x7fff6c209600) = -1 ENOENT (No such file or directory)
+30855 1240020435.581714 stat("/usr/lib/ocaml/3.10.2/METAS/META.threads", {st_mode=S_IFREG|0644, st_size=834, ...}) = 0
+30855 1240020435.581775 stat(".", {st_mode=S_IFDIR|0755, st_size=384, ...}) = 0
+30855 1240020435.581826 open(".", O_RDONLY|O_NONBLOCK|O_DIRECTORY|0x80000) = 3
+30855 1240020435.581949 stat("/usr/lib/ocaml/3.10.2", {st_mode=S_IFDIR|0755, st_size=12352, ...}) = 0
+30855 1240020435.582003 open("/usr/lib/ocaml/3.10.2", O_RDONLY|O_NONBLOCK|O_DIRECTORY|0x80000) = 3
+30855 1240020435.582437 open("/usr/lib/ocaml/3.10.2/ld.conf", O_RDONLY) = 3
+30855 1240020435.582555 open("/usr/local/lib/ocaml/3.10.2/stublibs", O_RDONLY|O_NONBLOCK|O_DIRECTORY|0x80000) = 3
+30855 1240020435.582652 open("/usr/lib/ocaml/3.10.2/stublibs", O_RDONLY|O_NONBLOCK|O_DIRECTORY|0x80000) = 3
+30855 1240020435.583158 clone(child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x2af83f2b8e70) = 30856
+30855 1240020435.584124 wait4(30856,  <unfinished ...>
+30856 1240020435.584406 execve("/home/al/build/lisaac/bin/ocamlc.opt", ["ocamlc.opt", "-g", "-o", "build/percepio_parser.byte", "-I", "/usr/lib/ocaml/3.10.2/camlp4", "-ccopt", "-I/usr/lib/ocaml/3.10.2/camlp4", "-ccopt", "-L/usr/lib/ocaml/3.10.2/camlp4", "build/percepio_parser.cmo"], [/* 40 vars */]) = -1 ENOENT (No such file or directory)
+30856 1240020435.584546 execve("/usr/local/sbin/ocamlc.opt", ["ocamlc.opt", "-g", "-o", "build/percepio_parser.byte", "-I", "/usr/lib/ocaml/3.10.2/camlp4", "-ccopt", "-I/usr/lib/ocaml/3.10.2/camlp4", "-ccopt", "-L/usr/lib/ocaml/3.10.2/camlp4", "build/percepio_parser.cmo"], [/* 40 vars */]) = -1 ENOENT (No such file or directory)
+30856 1240020435.584657 execve("/usr/local/bin/ocamlc.opt", ["ocamlc.opt", "-g", "-o", "build/percepio_parser.byte", "-I", "/usr/lib/ocaml/3.10.2/camlp4", "-ccopt", "-I/usr/lib/ocaml/3.10.2/camlp4", "-ccopt", "-L/usr/lib/ocaml/3.10.2/camlp4", "build/percepio_parser.cmo"], [/* 40 vars */]) = -1 ENOENT (No such file or directory)
+30856 1240020435.584764 execve("/usr/sbin/ocamlc.opt", ["ocamlc.opt", "-g", "-o", "build/percepio_parser.byte", "-I", "/usr/lib/ocaml/3.10.2/camlp4", "-ccopt", "-I/usr/lib/ocaml/3.10.2/camlp4", "-ccopt", "-L/usr/lib/ocaml/3.10.2/camlp4", "build/percepio_parser.cmo"], [/* 40 vars */]) = -1 ENOENT (No such file or directory)
+30856 1240020435.584870 execve("/usr/bin/ocamlc.opt", ["ocamlc.opt", "-g", "-o", "build/percepio_parser.byte", "-I", "/usr/lib/ocaml/3.10.2/camlp4", "-ccopt", "-I/usr/lib/ocaml/3.10.2/camlp4", "-ccopt", "-L/usr/lib/ocaml/3.10.2/camlp4", "build/percepio_parser.cmo"], [/* 40 vars */]) = 0
+30856 1240020435.585355 access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+30856 1240020435.585474 access("/etc/ld.so.preload", R_OK) = -1 ENOENT (No such file or directory)
+30856 1240020435.585525 open("/etc/ld.so.cache", O_RDONLY) = 3
+30856 1240020435.585607 access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+30856 1240020435.585654 open("/lib/libm.so.6", O_RDONLY) = 3
+30856 1240020435.585816 access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+30856 1240020435.585862 open("/lib/libdl.so.2", O_RDONLY) = 3
+30856 1240020435.586012 access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+30856 1240020435.586052 open("/lib/libncurses.so.5", O_RDONLY) = 3
+30856 1240020435.586213 access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+30856 1240020435.586260 open("/lib/libpthread.so.0", O_RDONLY) = 3
+30856 1240020435.586459 access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+30856 1240020435.586498 open("/lib/libc.so.6", O_RDONLY) = 3
+30856 1240020435.586728 arch_prctl(ARCH_SET_FS, 0x2ba421617d00) = 0
+30856 1240020435.591535 readlink("/proc/self/exe", "/usr/bin/ocamlc.opt", 256) = 19
+30856 1240020435.591742 stat("/usr/bin/ocamlc.opt", {st_mode=S_IFREG|0755, st_size=2115712, ...}) = 0
+30856 1240020435.593958 stat("std_exit.cmo", 0x7fff8a302680) = -1 ENOENT (No such file or directory)
+30856 1240020435.594068 stat("/usr/lib/ocaml/3.10.2/camlp4/std_exit.cmo", 0x7fff8a302680) = -1 ENOENT (No such file or directory)
+30856 1240020435.594113 stat("/usr/lib/ocaml/3.10.2/std_exit.cmo", {st_mode=S_IFREG|0644, st_size=1053, ...}) = 0
+30856 1240020435.594187 open("/usr/lib/ocaml/3.10.2/std_exit.cmo", O_RDONLY) = 3
+30856 1240020435.594345 stat("build/percepio_parser.cmo", {st_mode=S_IFREG|0644, st_size=4266, ...}) = 0
+30856 1240020435.594400 open("build/percepio_parser.cmo", O_RDONLY) = 3
+30856 1240020435.594533 stat("stdlib.cma", 0x7fff8a3026c0) = -1 ENOENT (No such file or directory)
+30856 1240020435.594569 stat("/usr/lib/ocaml/3.10.2/camlp4/stdlib.cma", 0x7fff8a3026c0) = -1 ENOENT (No such file or directory)
+30856 1240020435.594608 stat("/usr/lib/ocaml/3.10.2/stdlib.cma", {st_mode=S_IFREG|0644, st_size=958494, ...}) = 0
+30856 1240020435.594661 open("/usr/lib/ocaml/3.10.2/stdlib.cma", O_RDONLY) = 3
+30856 1240020435.595916 unlink("build/percepio_parser.byte") = -1 ENOENT (No such file or directory)
+30856 1240020435.596033 open("build/percepio_parser.byte", O_WRONLY|O_CREAT|O_TRUNC, 0777) = 3
+30856 1240020435.596171 stat("camlheader", 0x7fff8a3026d0) = -1 ENOENT (No such file or directory)
+30856 1240020435.596209 stat("/usr/lib/ocaml/3.10.2/camlp4/camlheader", 0x7fff8a3026d0) = -1 ENOENT (No such file or directory)
+30856 1240020435.596253 stat("/usr/lib/ocaml/3.10.2/camlheader", {st_mode=S_IFREG|0644, st_size=20, ...}) = 0
+30856 1240020435.596314 open("/usr/lib/ocaml/3.10.2/camlheader", O_RDONLY) = 4
+30856 1240020435.596768 open("/usr/lib/ocaml/3.10.2/ld.conf", O_RDONLY) = 4
+30856 1240020435.596881 open("/usr/lib/ocaml/3.10.2/stdlib.cma", O_RDONLY) = 4
+30856 1240020435.600430 open("build/percepio_parser.cmo", O_RDONLY) = 4
+30856 1240020435.600596 open("/usr/lib/ocaml/3.10.2/std_exit.cmo", O_RDONLY) = 4
+30856 1240020435.606590 exit_group(0)   = ?
+30855 1240020435.615725 <... wait4 resumed> [{WIFEXITED(s) && WEXITSTATUS(s) == 0}], 0, NULL) = 30856
+30855 1240020435.615800 --- SIGCHLD (Child exited) @ 0 (0) ---
+30855 1240020435.615900 exit_group(0)   = ?
+30846 1240020435.616237 <... wait4 resumed> [{WIFEXITED(s) && WEXITSTATUS(s) == 0}], 0, NULL) = 30855
+30846 1240020435.616260 --- SIGCHLD (Child exited) @ 0 (0) ---
+30846 1240020435.616320 wait4(-1, 0x7fffca99a894, WNOHANG, NULL) = 0
+30846 1240020435.616364 stat("build/percepio_parser.byte", {st_mode=S_IFREG|0755, st_size=319421, ...}) = 0
+30846 1240020435.616434 wait4(-1,  <unfinished ...>
+30854 1240020435.746822 stat("build/percepio_parser.o", 0x7fff655a8c50) = -1 ENOENT (No such file or directory)
+30854 1240020435.746993 open("build/percepio_parser.o", O_RDWR|O_CREAT|O_TRUNC, 0666) = 3
+30854 1240020435.749931 open("/tmp/camlasm40902a.s", O_RDONLY) = 4
+30854 1240020435.752558 exit_group(0)   = ?
+30853 1240020435.753685 <... wait4 resumed> [{WIFEXITED(s) && WEXITSTATUS(s) == 0}], 0, NULL) = 30854
+30853 1240020435.753729 --- SIGCHLD (Child exited) @ 0 (0) ---
+30853 1240020435.753778 exit_group(0)   = ?
+30849 1240020435.753873 <... wait4 resumed> [{WIFEXITED(s) && WEXITSTATUS(s) == 0}], 0, NULL) = 30853
+30849 1240020435.753947 --- SIGCHLD (Child exited) @ 0 (0) ---
+30849 1240020435.753982 unlink("/tmp/camlasm40902a.s") = 0
+30849 1240020435.754179 open("build/percepio_parser.cmx", O_WRONLY|O_CREAT|O_TRUNC, 0666) = 3
+30849 1240020435.754523 open("build/percepio_parser.cmx", O_RDONLY) = 4
+30849 1240020435.754804 exit_group(0)   = ?
+30848 1240020435.755474 <... wait4 resumed> [{WIFEXITED(s) && WEXITSTATUS(s) == 0}], 0, NULL) = 30849
+30848 1240020435.755508 --- SIGCHLD (Child exited) @ 0 (0) ---
+30848 1240020435.755596 exit_group(0)   = ?
+30846 1240020435.755827 <... wait4 resumed> [{WIFEXITED(s) && WEXITSTATUS(s) == 0}], 0, NULL) = 30848
+30846 1240020435.755845 --- SIGCHLD (Child exited) @ 0 (0) ---
+30846 1240020435.755918 stat("build/percepio_parser.cmx", {st_mode=S_IFREG|0644, st_size=535, ...}) = 0
+30846 1240020435.756169 vfork()         = 30857
+30846 1240020435.756637 wait4(-1,  <unfinished ...>
+30857 1240020435.756746 execve("/home/al/build/lisaac/bin/ocamlfind", ["ocamlfind", "ocamlopt", "-g", "-linkpkg", "-package", "camlp4", "-o", "build/percepio_parser", "build/percepio_parser.cmx"], [/* 40 vars */]) = -1 ENOENT (No such file or directory)
+30857 1240020435.756877 execve("/usr/local/sbin/ocamlfind", ["ocamlfind", "ocamlopt", "-g", "-linkpkg", "-package", "camlp4", "-o", "build/percepio_parser", "build/percepio_parser.cmx"], [/* 40 vars */]) = -1 ENOENT (No such file or directory)
+30857 1240020435.757007 execve("/usr/local/bin/ocamlfind", ["ocamlfind", "ocamlopt", "-g", "-linkpkg", "-package", "camlp4", "-o", "build/percepio_parser", "build/percepio_parser.cmx"], [/* 40 vars */]) = -1 ENOENT (No such file or directory)
+30857 1240020435.757107 execve("/usr/sbin/ocamlfind", ["ocamlfind", "ocamlopt", "-g", "-linkpkg", "-package", "camlp4", "-o", "build/percepio_parser", "build/percepio_parser.cmx"], [/* 40 vars */]) = -1 ENOENT (No such file or directory)
+30857 1240020435.757206 execve("/usr/bin/ocamlfind", ["ocamlfind", "ocamlopt", "-g", "-linkpkg", "-package", "camlp4", "-o", "build/percepio_parser", "build/percepio_parser.cmx"], [/* 40 vars */]) = 0
+30857 1240020435.757639 access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+30857 1240020435.757714 access("/etc/ld.so.preload", R_OK) = -1 ENOENT (No such file or directory)
+30857 1240020435.757767 open("/etc/ld.so.cache", O_RDONLY) = 3
+30857 1240020435.757847 access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+30857 1240020435.757894 open("/lib/libm.so.6", O_RDONLY) = 3
+30857 1240020435.758050 access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+30857 1240020435.758096 open("/lib/libdl.so.2", O_RDONLY) = 3
+30857 1240020435.758330 access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+30857 1240020435.758370 open("/lib/libc.so.6", O_RDONLY) = 3
+30857 1240020435.758583 arch_prctl(ARCH_SET_FS, 0x2b500090ade0) = 0
+30857 1240020435.759097 readlink("/proc/self/exe", "/usr/bin/ocamlfind", 256) = 18
+30857 1240020435.759329 stat("/usr/bin/ocamlfind", {st_mode=S_IFREG|0755, st_size=540256, ...}) = 0
+30857 1240020435.760095 stat("/etc/ocamlfind.conf", {st_mode=S_IFREG|0644, st_size=123, ...}) = 0
+30857 1240020435.760187 open("/etc/ocamlfind.conf", O_RDONLY) = 3
+30857 1240020435.760343 stat("/usr/share/ocaml-findlib/", {st_mode=S_IFDIR|0755, st_size=96, ...}) = 0
+30857 1240020435.760402 open("/usr/share/ocaml-findlib/", O_RDONLY|O_NONBLOCK|O_DIRECTORY|0x80000) = 3
+30857 1240020435.760532 open("/usr/share/ocaml-findlib/ocaml-native-compilers.conf", O_RDONLY) = 3
+30857 1240020435.760650 stat("/etc/ocamlfind.conf.d", 0x7fffaabb8110) = -1 ENOENT (No such file or directory)
+30857 1240020435.760792 stat("/usr/local/lib/ocaml/3.10.2/threads/META", 0x7fffaabb8040) = -1 ENOENT (No such file or directory)
+30857 1240020435.760882 stat("/usr/local/lib/ocaml/3.10.2/META.threads", 0x7fffaabb8040) = -1 ENOENT (No such file or directory)
+30857 1240020435.760922 stat("/usr/lib/ocaml/3.10.2/threads/META", 0x7fffaabb8040) = -1 ENOENT (No such file or directory)
+30857 1240020435.760960 stat("/usr/lib/ocaml/3.10.2/META.threads", 0x7fffaabb8040) = -1 ENOENT (No such file or directory)
+30857 1240020435.760997 stat("/usr/lib/ocaml/3.10.2/METAS/threads/META", 0x7fffaabb8040) = -1 ENOENT (No such file or directory)
+30857 1240020435.761043 stat("/usr/lib/ocaml/3.10.2/METAS/META.threads", {st_mode=S_IFREG|0644, st_size=834, ...}) = 0
+30857 1240020435.761098 open("/usr/lib/ocaml/3.10.2/METAS/META.threads", O_RDONLY) = 3
+30857 1240020435.761337 stat("/usr/lib/ocaml/3.10.2/vmthreads/threads.cma", {st_mode=S_IFREG|0644, st_size=11853, ...}) = 0
+30857 1240020435.761396 stat("/usr/lib/ocaml/3.10.2/threads/threads.cma", {st_mode=S_IFREG|0644, st_size=40133, ...}) = 0
+30857 1240020435.761529 stat("/usr/local/lib/ocaml/3.10.2/camlp4/META", 0x7fffaabb8020) = -1 ENOENT (No such file or directory)
+30857 1240020435.761569 stat("/usr/local/lib/ocaml/3.10.2/META.camlp4", 0x7fffaabb8020) = -1 ENOENT (No such file or directory)
+30857 1240020435.761607 stat("/usr/lib/ocaml/3.10.2/camlp4/META", 0x7fffaabb8020) = -1 ENOENT (No such file or directory)
+30857 1240020435.761643 stat("/usr/lib/ocaml/3.10.2/META.camlp4", 0x7fffaabb8020) = -1 ENOENT (No such file or directory)
+30857 1240020435.761681 stat("/usr/lib/ocaml/3.10.2/METAS/camlp4/META", 0x7fffaabb8020) = -1 ENOENT (No such file or directory)
+30857 1240020435.761717 stat("/usr/lib/ocaml/3.10.2/METAS/META.camlp4", {st_mode=S_IFREG|0644, st_size=4826, ...}) = 0
+30857 1240020435.761775 open("/usr/lib/ocaml/3.10.2/METAS/META.camlp4", O_RDONLY) = 3
+30857 1240020435.762573 stat("/usr/local/lib/ocaml/3.10.2/unix/META", 0x7fffaabb7f70) = -1 ENOENT (No such file or directory)
+30857 1240020435.762632 stat("/usr/local/lib/ocaml/3.10.2/META.unix", 0x7fffaabb7f70) = -1 ENOENT (No such file or directory)
+30857 1240020435.762670 stat("/usr/lib/ocaml/3.10.2/unix/META", 0x7fffaabb7f70) = -1 ENOENT (No such file or directory)
+30857 1240020435.762706 stat("/usr/lib/ocaml/3.10.2/META.unix", 0x7fffaabb7f70) = -1 ENOENT (No such file or directory)
+30857 1240020435.762743 stat("/usr/lib/ocaml/3.10.2/METAS/unix/META", 0x7fffaabb7f70) = -1 ENOENT (No such file or directory)
+30857 1240020435.762779 stat("/usr/lib/ocaml/3.10.2/METAS/META.unix", {st_mode=S_IFREG|0644, st_size=283, ...}) = 0
+30857 1240020435.762941 open("/usr/lib/ocaml/3.10.2/METAS/META.unix", O_RDONLY) = 3
+30857 1240020435.763611 stat("/usr/local/lib/ocaml/3.10.2", {st_mode=S_IFDIR|S_ISGID|0775, st_size=72, ...}) = 0
+30857 1240020435.763704 stat("/usr/lib/ocaml/3.10.2", {st_mode=S_IFDIR|0755, st_size=12352, ...}) = 0
+30857 1240020435.763756 stat("/usr/lib/ocaml/3.10.2/METAS", {st_mode=S_IFDIR|0755, st_size=640, ...}) = 0
+30857 1240020435.763812 stat("/usr/local/lib/ocaml/3.10.2/unix/META", 0x7fffaabb7fb0) = -1 ENOENT (No such file or directory)
+30857 1240020435.763854 stat("/usr/local/lib/ocaml/3.10.2/META.unix", 0x7fffaabb7fb0) = -1 ENOENT (No such file or directory)
+30857 1240020435.763891 stat("/usr/lib/ocaml/3.10.2/unix/META", 0x7fffaabb7fb0) = -1 ENOENT (No such file or directory)
+30857 1240020435.763936 stat("/usr/lib/ocaml/3.10.2/META.unix", 0x7fffaabb7fb0) = -1 ENOENT (No such file or directory)
+30857 1240020435.763972 stat("/usr/lib/ocaml/3.10.2/METAS/unix/META", 0x7fffaabb7fb0) = -1 ENOENT (No such file or directory)
+30857 1240020435.764009 stat("/usr/lib/ocaml/3.10.2/METAS/META.unix", {st_mode=S_IFREG|0644, st_size=283, ...}) = 0
+30857 1240020435.764068 stat("/usr/local/lib/ocaml/3.10.2/camlp4/META", 0x7fffaabb7fb0) = -1 ENOENT (No such file or directory)
+30857 1240020435.764105 stat("/usr/local/lib/ocaml/3.10.2/META.camlp4", 0x7fffaabb7fb0) = -1 ENOENT (No such file or directory)
+30857 1240020435.764238 stat("/usr/lib/ocaml/3.10.2/camlp4/META", 0x7fffaabb7fb0) = -1 ENOENT (No such file or directory)
+30857 1240020435.764275 stat("/usr/lib/ocaml/3.10.2/META.camlp4", 0x7fffaabb7fb0) = -1 ENOENT (No such file or directory)
+30857 1240020435.764355 stat("/usr/lib/ocaml/3.10.2/METAS/camlp4/META", 0x7fffaabb7fb0) = -1 ENOENT (No such file or directory)
+30857 1240020435.764392 stat("/usr/lib/ocaml/3.10.2/METAS/META.camlp4", {st_mode=S_IFREG|0644, st_size=4826, ...}) = 0
+30857 1240020435.764447 stat("/usr/local/lib/ocaml/3.10.2/threads/META", 0x7fffaabb7fb0) = -1 ENOENT (No such file or directory)
+30857 1240020435.764485 stat("/usr/local/lib/ocaml/3.10.2/META.threads", 0x7fffaabb7fb0) = -1 ENOENT (No such file or directory)
+30857 1240020435.764523 stat("/usr/lib/ocaml/3.10.2/threads/META", 0x7fffaabb7fb0) = -1 ENOENT (No such file or directory)
+30857 1240020435.764560 stat("/usr/lib/ocaml/3.10.2/META.threads", 0x7fffaabb7fb0) = -1 ENOENT (No such file or directory)
+30857 1240020435.764597 stat("/usr/lib/ocaml/3.10.2/METAS/threads/META", 0x7fffaabb7fb0) = -1 ENOENT (No such file or directory)
+30857 1240020435.764634 stat("/usr/lib/ocaml/3.10.2/METAS/META.threads", {st_mode=S_IFREG|0644, st_size=834, ...}) = 0
+30857 1240020435.764695 stat(".", {st_mode=S_IFDIR|0755, st_size=384, ...}) = 0
+30857 1240020435.764748 open(".", O_RDONLY|O_NONBLOCK|O_DIRECTORY|0x80000) = 3
+30857 1240020435.764877 stat("/usr/lib/ocaml/3.10.2", {st_mode=S_IFDIR|0755, st_size=12352, ...}) = 0
+30857 1240020435.764951 open("/usr/lib/ocaml/3.10.2", O_RDONLY|O_NONBLOCK|O_DIRECTORY|0x80000) = 3
+30857 1240020435.765375 open("/usr/lib/ocaml/3.10.2/ld.conf", O_RDONLY) = 3
+30857 1240020435.765490 open("/usr/local/lib/ocaml/3.10.2/stublibs", O_RDONLY|O_NONBLOCK|O_DIRECTORY|0x80000) = 3
+30857 1240020435.765584 open("/usr/lib/ocaml/3.10.2/stublibs", O_RDONLY|O_NONBLOCK|O_DIRECTORY|0x80000) = 3
+30857 1240020435.765977 clone(child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x2b500090ae70) = 30858
+30857 1240020435.766884 wait4(30858,  <unfinished ...>
+30858 1240020435.767221 execve("/home/al/build/lisaac/bin/ocamlopt.opt", ["ocamlopt.opt", "-g", "-o", "build/percepio_parser", "-I", "/usr/lib/ocaml/3.10.2/camlp4", "-ccopt", "-I/usr/lib/ocaml/3.10.2/camlp4", "-ccopt", "-L/usr/lib/ocaml/3.10.2/camlp4", "build/percepio_parser.cmx"], [/* 40 vars */]) = -1 ENOENT (No such file or directory)
+30858 1240020435.767361 execve("/usr/local/sbin/ocamlopt.opt", ["ocamlopt.opt", "-g", "-o", "build/percepio_parser", "-I", "/usr/lib/ocaml/3.10.2/camlp4", "-ccopt", "-I/usr/lib/ocaml/3.10.2/camlp4", "-ccopt", "-L/usr/lib/ocaml/3.10.2/camlp4", "build/percepio_parser.cmx"], [/* 40 vars */]) = -1 ENOENT (No such file or directory)
+30858 1240020435.767469 execve("/usr/local/bin/ocamlopt.opt", ["ocamlopt.opt", "-g", "-o", "build/percepio_parser", "-I", "/usr/lib/ocaml/3.10.2/camlp4", "-ccopt", "-I/usr/lib/ocaml/3.10.2/camlp4", "-ccopt", "-L/usr/lib/ocaml/3.10.2/camlp4", "build/percepio_parser.cmx"], [/* 40 vars */]) = -1 ENOENT (No such file or directory)
+30858 1240020435.767575 execve("/usr/sbin/ocamlopt.opt", ["ocamlopt.opt", "-g", "-o", "build/percepio_parser", "-I", "/usr/lib/ocaml/3.10.2/camlp4", "-ccopt", "-I/usr/lib/ocaml/3.10.2/camlp4", "-ccopt", "-L/usr/lib/ocaml/3.10.2/camlp4", "build/percepio_parser.cmx"], [/* 40 vars */]) = -1 ENOENT (No such file or directory)
+30858 1240020435.767680 execve("/usr/bin/ocamlopt.opt", ["ocamlopt.opt", "-g", "-o", "build/percepio_parser", "-I", "/usr/lib/ocaml/3.10.2/camlp4", "-ccopt", "-I/usr/lib/ocaml/3.10.2/camlp4", "-ccopt", "-L/usr/lib/ocaml/3.10.2/camlp4", "build/percepio_parser.cmx"], [/* 40 vars */]) = 0
+30858 1240020435.768134 access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+30858 1240020435.768209 access("/etc/ld.so.preload", R_OK) = -1 ENOENT (No such file or directory)
+30858 1240020435.768257 open("/etc/ld.so.cache", O_RDONLY) = 3
+30858 1240020435.768337 access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+30858 1240020435.768384 open("/lib/libm.so.6", O_RDONLY) = 3
+30858 1240020435.768539 access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+30858 1240020435.768584 open("/lib/libdl.so.2", O_RDONLY) = 3
+30858 1240020435.768779 access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+30858 1240020435.768818 open("/lib/libc.so.6", O_RDONLY) = 3
+30858 1240020435.769033 arch_prctl(ARCH_SET_FS, 0x2aebe1974de0) = 0
+30858 1240020435.769534 readlink("/proc/self/exe", "/usr/bin/ocamlopt.opt", 256) = 21
+30858 1240020435.769726 stat("/usr/bin/ocamlopt.opt", {st_mode=S_IFREG|0755, st_size=2075848, ...}) = 0
+30858 1240020435.776949 stat("std_exit.cmx", 0x7fffc9b4ffe0) = -1 ENOENT (No such file or directory)
+30858 1240020435.777061 stat("/usr/lib/ocaml/3.10.2/camlp4/std_exit.cmx", 0x7fffc9b4ffe0) = -1 ENOENT (No such file or directory)
+30858 1240020435.777107 stat("/usr/lib/ocaml/3.10.2/std_exit.cmx", {st_mode=S_IFREG|0644, st_size=157, ...}) = 0
+30858 1240020435.777182 open("/usr/lib/ocaml/3.10.2/std_exit.cmx", O_RDONLY) = 3
+30858 1240020435.777331 stat("build/percepio_parser.cmx", {st_mode=S_IFREG|0644, st_size=535, ...}) = 0
+30858 1240020435.777386 open("build/percepio_parser.cmx", O_RDONLY) = 3
+30858 1240020435.777491 stat("stdlib.cmxa", 0x7fffc9b50020) = -1 ENOENT (No such file or directory)
+30858 1240020435.777527 stat("/usr/lib/ocaml/3.10.2/camlp4/stdlib.cmxa", 0x7fffc9b50020) = -1 ENOENT (No such file or directory)
+30858 1240020435.777566 stat("/usr/lib/ocaml/3.10.2/stdlib.cmxa", {st_mode=S_IFREG|0644, st_size=10667, ...}) = 0
+30858 1240020435.777620 open("/usr/lib/ocaml/3.10.2/stdlib.cmxa", O_RDONLY) = 3
+30858 1240020435.778008 open("/tmp/camlstartup168eb1.s", O_WRONLY|O_CREAT|O_EXCL, 0600) = 3
+30858 1240020435.778137 open("/tmp/camlstartup168eb1.s", O_WRONLY|O_CREAT|O_TRUNC, 0666) = 3
+30858 1240020435.787963 open("/tmp/camlstartupa55c34.o", O_WRONLY|O_CREAT|O_EXCL, 0600) = 3
+30858 1240020435.788172 clone(child_stack=0, flags=CLONE_PARENT_SETTID|SIGCHLD, parent_tidptr=0x7fffc9b50068) = 30859
+30858 1240020435.788555 wait4(30859,  <unfinished ...>
+30859 1240020435.788630 execve("/bin/sh", ["sh", "-c", "as -o /tmp/camlstartupa55c34.o /tmp/camlstartup168eb1.s"], [/* 40 vars */]) = 0
+30859 1240020435.789071 access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+30859 1240020435.789151 access("/etc/ld.so.preload", R_OK) = -1 ENOENT (No such file or directory)
+30859 1240020435.789200 open("/etc/ld.so.cache", O_RDONLY) = 3
+30859 1240020435.789280 access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+30859 1240020435.789323 open("/lib/libc.so.6", O_RDONLY) = 3
+30859 1240020435.789632 arch_prctl(ARCH_SET_FS, 0x2ab8338676e0) = 0
+30859 1240020435.790071 stat("/home/al/src/percipio", {st_mode=S_IFDIR|0755, st_size=384, ...}) = 0
+30859 1240020435.790143 stat(".", {st_mode=S_IFDIR|0755, st_size=384, ...}) = 0
+30859 1240020435.790299 stat("/home/al/build/lisaac/bin/as", 0x7fff777d3c50) = -1 ENOENT (No such file or directory)
+30859 1240020435.790344 stat("/usr/local/sbin/as", 0x7fff777d3c50) = -1 ENOENT (No such file or directory)
+30859 1240020435.790383 stat("/usr/local/bin/as", 0x7fff777d3c50) = -1 ENOENT (No such file or directory)
+30859 1240020435.790420 stat("/usr/sbin/as", 0x7fff777d3c50) = -1 ENOENT (No such file or directory)
+30859 1240020435.790455 stat("/usr/bin/as", {st_mode=S_IFREG|0755, st_size=319528, ...}) = 0
+30859 1240020435.790518 clone(child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x2ab833867770) = 30860
+30859 1240020435.790724 wait4(4294967295,  <unfinished ...>
+30860 1240020435.790816 execve("/usr/bin/as", ["as", "-o", "/tmp/camlstartupa55c34.o", "/tmp/camlstartup168eb1.s"], [/* 40 vars */]) = 0
+30860 1240020435.795838 access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+30860 1240020435.795935 access("/etc/ld.so.preload", R_OK) = -1 ENOENT (No such file or directory)
+30860 1240020435.795991 open("/etc/ld.so.cache", O_RDONLY) = 3
+30860 1240020435.796077 access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+30860 1240020435.796125 open("/usr/lib/libopcodes-2.18.93.20081009.so", O_RDONLY) = 3
+30860 1240020435.796295 access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+30860 1240020435.796386 open("/usr/lib/libbfd-2.18.93.20081009.so", O_RDONLY) = 3
+30860 1240020435.796547 access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+30860 1240020435.796590 open("/usr/lib/libz.so.1", O_RDONLY) = 3
+30860 1240020435.796743 access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+30860 1240020435.796782 open("/lib/libc.so.6", O_RDONLY) = 3
+30860 1240020435.797210 arch_prctl(ARCH_SET_FS, 0x2b13502036e0) = 0
+30860 1240020435.803455 stat("/tmp/camlstartupa55c34.o", {st_mode=S_IFREG|0600, st_size=0, ...}) = 0
+30860 1240020435.803604 open("/tmp/camlstartupa55c34.o", O_RDWR|O_CREAT|O_TRUNC, 0666) = 3
+30860 1240020435.805848 open("/tmp/camlstartup168eb1.s", O_RDONLY) = 4
+30860 1240020435.821189 exit_group(0)   = ?
+30859 1240020435.822452 <... wait4 resumed> [{WIFEXITED(s) && WEXITSTATUS(s) == 0}], 0, NULL) = 30860
+30859 1240020435.822505 --- SIGCHLD (Child exited) @ 0 (0) ---
+30859 1240020435.822556 exit_group(0)   = ?
+30858 1240020435.835429 <... wait4 resumed> [{WIFEXITED(s) && WEXITSTATUS(s) == 0}], 0, NULL) = 30859
+30858 1240020435.835543 --- SIGCHLD (Child exited) @ 0 (0) ---
+30858 1240020435.835579 stat("stdlib.cmxa", 0x7fffc9b50010) = -1 ENOENT (No such file or directory)
+30858 1240020435.835630 stat("/usr/lib/ocaml/3.10.2/camlp4/stdlib.cmxa", 0x7fffc9b50010) = -1 ENOENT (No such file or directory)
+30858 1240020435.835676 stat("/usr/lib/ocaml/3.10.2/stdlib.cmxa", {st_mode=S_IFREG|0644, st_size=10667, ...}) = 0
+30858 1240020435.835738 stat("build/percepio_parser.cmx", {st_mode=S_IFREG|0644, st_size=535, ...}) = 0
+30858 1240020435.835868 stat("std_exit.cmx", 0x7fffc9b4ffd0) = -1 ENOENT (No such file or directory)
+30858 1240020435.835903 stat("/usr/lib/ocaml/3.10.2/camlp4/std_exit.cmx", 0x7fffc9b4ffd0) = -1 ENOENT (No such file or directory)
+30858 1240020435.835942 stat("/usr/lib/ocaml/3.10.2/std_exit.cmx", {st_mode=S_IFREG|0644, st_size=157, ...}) = 0
+30858 1240020435.835997 stat("libasmrun.a", 0x7fffc9b4ffe0) = -1 ENOENT (No such file or directory)
+30858 1240020435.836031 stat("/usr/lib/ocaml/3.10.2/camlp4/libasmrun.a", 0x7fffc9b4ffe0) = -1 ENOENT (No such file or directory)
+30858 1240020435.836070 stat("/usr/lib/ocaml/3.10.2/libasmrun.a", {st_mode=S_IFREG|0644, st_size=279218, ...}) = 0
+30858 1240020435.836202 clone(child_stack=0, flags=CLONE_PARENT_SETTID|SIGCHLD, parent_tidptr=0x7fffc9b4fff8) = 30861
+30858 1240020435.836579 wait4(30861,  <unfinished ...>
+30861 1240020435.836646 execve("/bin/sh", ["sh", "-c", "gcc   -o \'build/percepio_parser\' -I\'/usr/lib/ocaml/3.10.2\' -I/usr/lib/ocaml/3.10.2/camlp4 -L/usr/lib/ocaml/3.10.2/camlp4 \'/tmp/camlstartupa55c34.o\' \'/usr/lib/ocaml/3.10.2/std_exit.o\' \'build/percepio_parser.o\' \'/usr/lib/ocaml/3.10.2/stdlib.a\'  \'-L/usr/lib/ocaml/3.10.2/camlp4\' \'-L/usr/lib/ocaml/3.10.2\'  \'/usr/lib/ocaml/3.10.2/libasmrun.a\' -lm  -ldl"], [/* 40 vars */]) = 0
+30861 1240020435.837292 access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+30861 1240020435.837373 access("/etc/ld.so.preload", R_OK) = -1 ENOENT (No such file or directory)
+30861 1240020435.837425 open("/etc/ld.so.cache", O_RDONLY) = 3
+30861 1240020435.837501 access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+30861 1240020435.837542 open("/lib/libc.so.6", O_RDONLY) = 3
+30861 1240020435.837761 arch_prctl(ARCH_SET_FS, 0x2ad6f7d6f6e0) = 0
+30861 1240020435.838187 stat("/home/al/src/percipio", {st_mode=S_IFDIR|0755, st_size=384, ...}) = 0
+30861 1240020435.838254 stat(".", {st_mode=S_IFDIR|0755, st_size=384, ...}) = 0
+30861 1240020435.838413 stat("/home/al/build/lisaac/bin/gcc", 0x7fffb32cb620) = -1 ENOENT (No such file or directory)
+30861 1240020435.838456 stat("/usr/local/sbin/gcc", 0x7fffb32cb620) = -1 ENOENT (No such file or directory)
+30861 1240020435.838492 stat("/usr/local/bin/gcc", 0x7fffb32cb620) = -1 ENOENT (No such file or directory)
+30861 1240020435.838527 stat("/usr/sbin/gcc", 0x7fffb32cb620) = -1 ENOENT (No such file or directory)
+30861 1240020435.838561 stat("/usr/bin/gcc", {st_mode=S_IFREG|0755, st_size=242760, ...}) = 0
+30861 1240020435.838780 clone(child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x2ad6f7d6f770) = 30862
+30861 1240020435.849641 wait4(4294967295,  <unfinished ...>
+30862 1240020435.849762 execve("/usr/bin/gcc", ["gcc", "-o", "build/percepio_parser", "-I/usr/lib/ocaml/3.10.2", "-I/usr/lib/ocaml/3.10.2/camlp4", "-L/usr/lib/ocaml/3.10.2/camlp4", "/tmp/camlstartupa55c34.o", "/usr/lib/ocaml/3.10.2/std_exit.o", "build/percepio_parser.o", "/usr/lib/ocaml/3.10.2/stdlib.a", "-L/usr/lib/ocaml/3.10.2/camlp4", "-L/usr/lib/ocaml/3.10.2", "/usr/lib/ocaml/3.10.2/libasmrun.a", "-lm", "-ldl"], [/* 40 vars */]) = 0
+30862 1240020435.850214 access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+30862 1240020435.850290 access("/etc/ld.so.preload", R_OK) = -1 ENOENT (No such file or directory)
+30862 1240020435.850341 open("/etc/ld.so.cache", O_RDONLY) = 3
+30862 1240020435.850417 access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+30862 1240020435.850459 open("/lib/libc.so.6", O_RDONLY) = 3
+30862 1240020435.850661 arch_prctl(ARCH_SET_FS, 0x2ab65e11c6e0) = 0
+30862 1240020435.851046 open("/usr/lib/locale/locale-archive", O_RDONLY) = -1 ENOENT (No such file or directory)
+30862 1240020435.851103 open("/usr/share/locale/locale.alias", O_RDONLY) = 3
+30862 1240020435.851898 open("/usr/lib/locale/en_CA.UTF-8/LC_CTYPE", O_RDONLY) = -1 ENOENT (No such file or directory)
+30862 1240020435.851950 open("/usr/lib/locale/en_CA.utf8/LC_CTYPE", O_RDONLY) = 3
+30862 1240020435.852042 open("/usr/lib/gconv/gconv-modules.cache", O_RDONLY) = 3
+30862 1240020435.852184 open("/usr/lib/locale/en_CA.UTF-8/LC_MESSAGES", O_RDONLY) = -1 ENOENT (No such file or directory)
+30862 1240020435.852225 open("/usr/lib/locale/en_CA.utf8/LC_MESSAGES", O_RDONLY) = 3
+30862 1240020435.852282 open("/usr/lib/locale/en_CA.utf8/LC_MESSAGES/SYS_LC_MESSAGES", O_RDONLY) = 3
+30862 1240020435.852456 open("/usr/share/locale/en_CA.UTF-8/LC_MESSAGES/gcc-4.3.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+30862 1240020435.852498 open("/usr/share/locale/en_CA.utf8/LC_MESSAGES/gcc-4.3.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+30862 1240020435.852536 open("/usr/share/locale/en_CA/LC_MESSAGES/gcc-4.3.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+30862 1240020435.852576 open("/usr/share/locale/en.UTF-8/LC_MESSAGES/gcc-4.3.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+30862 1240020435.852613 open("/usr/share/locale/en.utf8/LC_MESSAGES/gcc-4.3.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+30862 1240020435.852651 open("/usr/share/locale/en/LC_MESSAGES/gcc-4.3.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+30862 1240020435.852690 open("/usr/share/locale-langpack/en_CA.UTF-8/LC_MESSAGES/gcc-4.3.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+30862 1240020435.852729 open("/usr/share/locale-langpack/en_CA.utf8/LC_MESSAGES/gcc-4.3.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+30862 1240020435.852767 open("/usr/share/locale-langpack/en_CA/LC_MESSAGES/gcc-4.3.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+30862 1240020435.852806 open("/usr/share/locale-langpack/en.UTF-8/LC_MESSAGES/gcc-4.3.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+30862 1240020435.852845 open("/usr/share/locale-langpack/en.utf8/LC_MESSAGES/gcc-4.3.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+30862 1240020435.852882 open("/usr/share/locale-langpack/en/LC_MESSAGES/gcc-4.3.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+30862 1240020435.853052 access("/home/al/build/lisaac/bin/gcc", X_OK) = -1 ENOENT (No such file or directory)
+30862 1240020435.853097 access("/usr/local/sbin/gcc", X_OK) = -1 ENOENT (No such file or directory)
+30862 1240020435.853134 access("/usr/local/bin/gcc", X_OK) = -1 ENOENT (No such file or directory)
+30862 1240020435.853168 access("/usr/sbin/gcc", X_OK) = -1 ENOENT (No such file or directory)
+30862 1240020435.853201 access("/usr/bin/gcc", X_OK) = 0
+30862 1240020435.853246 lstat("/usr", {st_mode=S_IFDIR|0755, st_size=344, ...}) = 0
+30862 1240020435.853336 lstat("/usr/bin", {st_mode=S_IFDIR|0755, st_size=89800, ...}) = 0
+30862 1240020435.853381 lstat("/usr/bin/gcc", {st_mode=S_IFLNK|0777, st_size=7, ...}) = 0
+30862 1240020435.853429 readlink("/usr/bin/gcc", "gcc-4.3", 4096) = 7
+30862 1240020435.853471 lstat("/usr/bin/gcc-4.3", {st_mode=S_IFREG|0755, st_size=242760, ...}) = 0
+30862 1240020435.853525 access("/home/al/build/lisaac/bin/gcc", X_OK) = -1 ENOENT (No such file or directory)
+30862 1240020435.853562 access("/usr/local/sbin/gcc", X_OK) = -1 ENOENT (No such file or directory)
+30862 1240020435.853596 access("/usr/local/bin/gcc", X_OK) = -1 ENOENT (No such file or directory)
+30862 1240020435.853630 access("/usr/sbin/gcc", X_OK) = -1 ENOENT (No such file or directory)
+30862 1240020435.853662 access("/usr/bin/gcc", X_OK) = 0
+30862 1240020435.853695 lstat("/usr", {st_mode=S_IFDIR|0755, st_size=344, ...}) = 0
+30862 1240020435.853739 lstat("/usr/bin", {st_mode=S_IFDIR|0755, st_size=89800, ...}) = 0
+30862 1240020435.853784 lstat("/usr/bin/gcc", {st_mode=S_IFLNK|0777, st_size=7, ...}) = 0
+30862 1240020435.853830 readlink("/usr/bin/gcc", "gcc-4.3", 4096) = 7
+30862 1240020435.853864 lstat("/usr/bin/gcc-4.3", {st_mode=S_IFREG|0755, st_size=242760, ...}) = 0
+30862 1240020435.853954 access("/usr/lib/gcc/x86_64-linux-gnu/4.3.2/", X_OK) = 0
+30862 1240020435.854004 access("/usr/lib/gcc/x86_64-linux-gnu/4.3.2/", X_OK) = 0
+30862 1240020435.854046 access("/tmp/camlstartupa55c34.o", F_OK) = 0
+30862 1240020435.854082 access("/usr/lib/ocaml/3.10.2/std_exit.o", F_OK) = 0
+30862 1240020435.854118 access("build/percepio_parser.o", F_OK) = 0
+30862 1240020435.854152 access("/usr/lib/ocaml/3.10.2/stdlib.a", F_OK) = 0
+30862 1240020435.854187 access("/usr/lib/ocaml/3.10.2/libasmrun.a", F_OK) = 0
+30862 1240020435.854235 access("/usr/lib/gcc/x86_64-linux-gnu/4.3.2/specs", R_OK) = -1 ENOENT (No such file or directory)
+30862 1240020435.854275 access("/usr/lib/gcc/x86_64-linux-gnu/4.3.2/specs", R_OK) = -1 ENOENT (No such file or directory)
+30862 1240020435.854314 access("/usr/lib/gcc/x86_64-linux-gnu/4.3.2/../../../../x86_64-linux-gnu/lib/x86_64-linux-gnu/4.3.2/specs", R_OK) = -1 ENOENT (No such file or directory)
+30862 1240020435.854359 access("/usr/lib/gcc/x86_64-linux-gnu/4.3.2/../../../../x86_64-linux-gnu/lib/specs", R_OK) = -1 ENOENT (No such file or directory)
+30862 1240020435.854413 access("/usr/lib/gcc/x86_64-linux-gnu/specs", R_OK) = -1 ENOENT (No such file or directory)
+30862 1240020435.854468 access("/usr/lib/gcc/x86_64-linux-gnu/4.3.2/", X_OK) = 0
+30862 1240020435.854672 stat("/usr/lib/gcc/x86_64-linux-gnu/4.3.2/collect2", {st_mode=S_IFREG|0755, st_size=117504, ...}) = 0
+30862 1240020435.854726 access("/usr/lib/gcc/x86_64-linux-gnu/4.3.2/collect2", X_OK) = 0
+30862 1240020435.854766 stat("/usr/lib/gcc/x86_64-linux-gnu/4.3.2/.", {st_mode=S_IFDIR|0755, st_size=1008, ...}) = 0
+30862 1240020435.854818 stat("/usr/lib/gcc/x86_64-linux-gnu/4.3.2/.", {st_mode=S_IFDIR|0755, st_size=1008, ...}) = 0
+30862 1240020435.854869 stat("/usr/lib/gcc/x86_64-linux-gnu/.", {st_mode=S_IFDIR|0755, st_size=216, ...}) = 0
+30862 1240020435.854936 stat("/usr/lib/gcc/x86_64-linux-gnu/4.3.2/.", {st_mode=S_IFDIR|0755, st_size=1008, ...}) = 0
+30862 1240020435.854989 stat("/usr/lib/gcc/x86_64-linux-gnu/.", {st_mode=S_IFDIR|0755, st_size=216, ...}) = 0
+30862 1240020435.855038 stat("/usr/libexec/gcc/x86_64-linux-gnu/4.3.2/.", 0x7fff4cf1d2a0) = -1 ENOENT (No such file or directory)
+30862 1240020435.855075 stat("/usr/libexec/gcc/x86_64-linux-gnu/.", 0x7fff4cf1d2a0) = -1 ENOENT (No such file or directory)
+30862 1240020435.855111 stat("/usr/lib/gcc/x86_64-linux-gnu/4.3.2/.", {st_mode=S_IFDIR|0755, st_size=1008, ...}) = 0
+30862 1240020435.855662 stat("/usr/lib/gcc/x86_64-linux-gnu/.", {st_mode=S_IFDIR|0755, st_size=216, ...}) = 0
+30862 1240020435.855712 stat("/usr/lib/gcc/x86_64-linux-gnu/4.3.2/../../../../x86_64-linux-gnu/bin/x86_64-linux-gnu/4.3.2/.", 0x7fff4cf1d2a0) = -1 ENOENT (No such file or directory)
+30862 1240020435.855758 stat("/usr/lib/gcc/x86_64-linux-gnu/4.3.2/../../../../x86_64-linux-gnu/bin/.", 0x7fff4cf1d2a0) = -1 ENOENT (No such file or directory)
+30862 1240020435.855844 stat("/usr/lib/gcc/x86_64-linux-gnu/4.3.2/.", {st_mode=S_IFDIR|0755, st_size=1008, ...}) = 0
+30862 1240020435.855896 stat("/usr/lib/gcc/x86_64-linux-gnu/4.3.2/.", {st_mode=S_IFDIR|0755, st_size=1008, ...}) = 0
+30862 1240020435.855948 stat("/usr/lib/gcc/x86_64-linux-gnu/4.3.2/../../../../x86_64-linux-gnu/lib/x86_64-linux-gnu/4.3.2/.", 0x7fff4cf1d2a0) = -1 ENOENT (No such file or directory)
+30862 1240020435.855991 stat("/usr/lib/gcc/x86_64-linux-gnu/4.3.2/../../../../x86_64-linux-gnu/lib/../lib/.", 0x7fff4cf1d2a0) = -1 ENOENT (No such file or directory)
+30862 1240020435.856033 stat("/usr/lib/gcc/x86_64-linux-gnu/4.3.2/../../../x86_64-linux-gnu/4.3.2/.", 0x7fff4cf1d2a0) = -1 ENOENT (No such file or directory)
+30862 1240020435.856076 stat("/usr/lib/gcc/x86_64-linux-gnu/4.3.2/../../../../lib/.", {st_mode=S_IFDIR|0755, st_size=118280, ...}) = 0
+30862 1240020435.856129 stat("/lib/x86_64-linux-gnu/4.3.2/.", 0x7fff4cf1d2a0) = -1 ENOENT (No such file or directory)
+30862 1240020435.856166 stat("/lib/../lib/.", {st_mode=S_IFDIR|0755, st_size=5728, ...}) = 0
+30862 1240020435.856212 stat("/usr/lib/x86_64-linux-gnu/4.3.2/.", 0x7fff4cf1d2a0) = -1 ENOENT (No such file or directory)
+30862 1240020435.856248 stat("/usr/lib/../lib/.", {st_mode=S_IFDIR|0755, st_size=118280, ...}) = 0
+30862 1240020435.856297 stat("/usr/lib/gcc/x86_64-linux-gnu/4.3.2/../../../../x86_64-linux-gnu/lib/.", 0x7fff4cf1d2a0) = -1 ENOENT (No such file or directory)
+30862 1240020435.856338 stat("/usr/lib/gcc/x86_64-linux-gnu/4.3.2/../../../.", {st_mode=S_IFDIR|0755, st_size=118280, ...}) = 0
+30862 1240020435.856391 stat("/lib/.", {st_mode=S_IFDIR|0755, st_size=5728, ...}) = 0
+30862 1240020435.856436 stat("/usr/lib/.", {st_mode=S_IFDIR|0755, st_size=118280, ...}) = 0
+30862 1240020435.856590 access("/usr/lib/gcc/x86_64-linux-gnu/4.3.2/crt1.o", R_OK) = -1 ENOENT (No such file or directory)
+30862 1240020435.856633 access("/usr/lib/gcc/x86_64-linux-gnu/4.3.2/crt1.o", R_OK) = -1 ENOENT (No such file or directory)
+30862 1240020435.856672 access("/usr/lib/gcc/x86_64-linux-gnu/4.3.2/../../../../x86_64-linux-gnu/lib/x86_64-linux-gnu/4.3.2/crt1.o", R_OK) = -1 ENOENT (No such file or directory)
+30862 1240020435.856716 access("/usr/lib/gcc/x86_64-linux-gnu/4.3.2/../../../../x86_64-linux-gnu/lib/../lib/crt1.o", R_OK) = -1 ENOENT (No such file or directory)
+30862 1240020435.856759 access("/usr/lib/gcc/x86_64-linux-gnu/4.3.2/../../../x86_64-linux-gnu/4.3.2/crt1.o", R_OK) = -1 ENOENT (No such file or directory)
+30862 1240020435.856801 access("/usr/lib/gcc/x86_64-linux-gnu/4.3.2/../../../../lib/crt1.o", R_OK) = 0
+30862 1240020435.856844 access("/usr/lib/gcc/x86_64-linux-gnu/4.3.2/crti.o", R_OK) = -1 ENOENT (No such file or directory)
+30862 1240020435.856883 access("/usr/lib/gcc/x86_64-linux-gnu/4.3.2/crti.o", R_OK) = -1 ENOENT (No such file or directory)
+30862 1240020435.856939 access("/usr/lib/gcc/x86_64-linux-gnu/4.3.2/../../../../x86_64-linux-gnu/lib/x86_64-linux-gnu/4.3.2/crti.o", R_OK) = -1 ENOENT (No such file or directory)
+30862 1240020435.856984 access("/usr/lib/gcc/x86_64-linux-gnu/4.3.2/../../../../x86_64-linux-gnu/lib/../lib/crti.o", R_OK) = -1 ENOENT (No such file or directory)
+30862 1240020435.857027 access("/usr/lib/gcc/x86_64-linux-gnu/4.3.2/../../../x86_64-linux-gnu/4.3.2/crti.o", R_OK) = -1 ENOENT (No such file or directory)
+30862 1240020435.857070 access("/usr/lib/gcc/x86_64-linux-gnu/4.3.2/../../../../lib/crti.o", R_OK) = 0
+30862 1240020435.857113 access("/usr/lib/gcc/x86_64-linux-gnu/4.3.2/crtbegin.o", R_OK) = 0
+30862 1240020435.857157 stat("/usr/lib/gcc/x86_64-linux-gnu/4.3.2/.", {st_mode=S_IFDIR|0755, st_size=1008, ...}) = 0
+30862 1240020435.857210 stat("/usr/lib/gcc/x86_64-linux-gnu/4.3.2/.", {st_mode=S_IFDIR|0755, st_size=1008, ...}) = 0
+30862 1240020435.857262 stat("/usr/lib/gcc/x86_64-linux-gnu/4.3.2/../../../../x86_64-linux-gnu/lib/x86_64-linux-gnu/4.3.2/.", 0x7fff4cf1c2a0) = -1 ENOENT (No such file or directory)
+30862 1240020435.857306 stat("/usr/lib/gcc/x86_64-linux-gnu/4.3.2/../../../../x86_64-linux-gnu/lib/../lib/.", 0x7fff4cf1c2a0) = -1 ENOENT (No such file or directory)
+30862 1240020435.857366 stat("/usr/lib/gcc/x86_64-linux-gnu/4.3.2/../../../x86_64-linux-gnu/4.3.2/.", 0x7fff4cf1c2a0) = -1 ENOENT (No such file or directory)
+30862 1240020435.857649 stat("/usr/lib/gcc/x86_64-linux-gnu/4.3.2/../../../../lib/.", {st_mode=S_IFDIR|0755, st_size=118280, ...}) = 0
+30862 1240020435.857712 stat("/lib/x86_64-linux-gnu/4.3.2/.", 0x7fff4cf1c2a0) = -1 ENOENT (No such file or directory)
+30862 1240020435.857748 stat("/lib/../lib/.", {st_mode=S_IFDIR|0755, st_size=5728, ...}) = 0
+30862 1240020435.857794 stat("/usr/lib/x86_64-linux-gnu/4.3.2/.", 0x7fff4cf1c2a0) = -1 ENOENT (No such file or directory)
+30862 1240020435.857830 stat("/usr/lib/../lib/.", {st_mode=S_IFDIR|0755, st_size=118280, ...}) = 0
+30862 1240020435.857879 stat("/usr/lib/gcc/x86_64-linux-gnu/4.3.2/../../../../x86_64-linux-gnu/lib/.", 0x7fff4cf1c2a0) = -1 ENOENT (No such file or directory)
+30862 1240020435.857920 stat("/usr/lib/gcc/x86_64-linux-gnu/4.3.2/../../../.", {st_mode=S_IFDIR|0755, st_size=118280, ...}) = 0
+30862 1240020435.857993 access("/usr/lib/gcc/x86_64-linux-gnu/4.3.2/crtend.o", R_OK) = 0
+30862 1240020435.858035 access("/usr/lib/gcc/x86_64-linux-gnu/4.3.2/crtn.o", R_OK) = -1 ENOENT (No such file or directory)
+30862 1240020435.858075 access("/usr/lib/gcc/x86_64-linux-gnu/4.3.2/crtn.o", R_OK) = -1 ENOENT (No such file or directory)
+30862 1240020435.858113 access("/usr/lib/gcc/x86_64-linux-gnu/4.3.2/../../../../x86_64-linux-gnu/lib/x86_64-linux-gnu/4.3.2/crtn.o", R_OK) = -1 ENOENT (No such file or directory)
+30862 1240020435.858157 access("/usr/lib/gcc/x86_64-linux-gnu/4.3.2/../../../../x86_64-linux-gnu/lib/../lib/crtn.o", R_OK) = -1 ENOENT (No such file or directory)
+30862 1240020435.858199 access("/usr/lib/gcc/x86_64-linux-gnu/4.3.2/../../../x86_64-linux-gnu/4.3.2/crtn.o", R_OK) = -1 ENOENT (No such file or directory)
+30862 1240020435.858241 access("/usr/lib/gcc/x86_64-linux-gnu/4.3.2/../../../../lib/crtn.o", R_OK) = 0
+30862 1240020435.858358 stat("/usr/lib/gcc/x86_64-linux-gnu/4.3.2/collect2", {st_mode=S_IFREG|0755, st_size=117504, ...}) = 0
+30862 1240020435.858411 access("/usr/lib/gcc/x86_64-linux-gnu/4.3.2/collect2", X_OK) = 0
+30862 1240020435.858463 vfork()         = 30863
+30863 1240020435.867448 execve("/usr/lib/gcc/x86_64-linux-gnu/4.3.2/collect2", ["/usr/lib/gcc/x86_64-linux-gnu/4.3.2/collect2", "--eh-frame-hdr", "-m", "elf_x86_64", "--hash-style=both", "-dynamic-linker", "/lib64/ld-linux-x86-64.so.2", "-o", "build/percepio_parser", "-z", "relro", "/usr/lib/gcc/x86_64-linux-gnu/4.3.2/../../../../lib/crt1.o", "/usr/lib/gcc/x86_64-linux-gnu/4.3.2/../../../../lib/crti.o", "/usr/lib/gcc/x86_64-linux-gnu/4.3.2/crtbegin.o", "-L/usr/lib/ocaml/3.10.2/camlp4", "-L/usr/lib/ocaml/3.10.2/camlp4", "-L/usr/lib/ocaml/3.10.2", "-L/usr/lib/gcc/x86_64-linux-gnu/4.3.2", "-L/usr/lib/gcc/x86_64-linux-gnu/4.3.2", "-L/usr/lib/gcc/x86_64-linux-gnu/4.3.2/../../../../lib", "-L/lib/../lib", "-L/usr/lib/../lib", "-L/usr/lib/gcc/x86_64-linux-gnu/4.3.2/../../..", "/tmp/camlstartupa55c34.o", "/usr/lib/ocaml/3.10.2/std_exit.o", "build/percepio_parser.o", "/usr/lib/ocaml/3.10.2/stdlib.a", "/usr/lib/ocaml/3.10.2/libasmrun.a", "-lm", "-ldl", "-lgcc", "--as-needed", "-lgcc_s", "--no-as-needed", "-lc", "-lgcc", "--as-needed", "-lgcc_s", "--no-as-needed", "/usr/lib/gcc/x86_64-linux-gnu/4.3.2/crtend.o", "/usr/lib/gcc/x86_64-linux-gnu/4.3.2/../../../../lib/crtn.o"], [/* 44 vars */]) = 0
+30863 1240020435.868007 access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+30863 1240020435.868086 access("/etc/ld.so.preload", R_OK) = -1 ENOENT (No such file or directory)
+30863 1240020435.868135 open("/etc/ld.so.cache", O_RDONLY) = 3
+30863 1240020435.868216 access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+30863 1240020435.868260 open("/lib/libc.so.6", O_RDONLY) = 3
+30863 1240020435.868469 arch_prctl(ARCH_SET_FS, 0x2ad98f4626e0) = 0
+30863 1240020435.868862 open("/usr/lib/locale/locale-archive", O_RDONLY) = -1 ENOENT (No such file or directory)
+30863 1240020435.868965 open("/usr/share/locale/locale.alias", O_RDONLY) = 3
+30863 1240020435.869196 open("/usr/lib/locale/en_CA.UTF-8/LC_CTYPE", O_RDONLY) = -1 ENOENT (No such file or directory)
+30863 1240020435.869238 open("/usr/lib/locale/en_CA.utf8/LC_CTYPE", O_RDONLY) = 3
+30863 1240020435.869324 open("/usr/lib/gconv/gconv-modules.cache", O_RDONLY) = 3
+30863 1240020435.869461 open("/usr/lib/locale/en_CA.UTF-8/LC_MESSAGES", O_RDONLY) = -1 ENOENT (No such file or directory)
+30863 1240020435.869502 open("/usr/lib/locale/en_CA.utf8/LC_MESSAGES", O_RDONLY) = 3
+30863 1240020435.869562 open("/usr/lib/locale/en_CA.utf8/LC_MESSAGES/SYS_LC_MESSAGES", O_RDONLY) = 3
+30863 1240020435.869723 open("/usr/share/locale/en_CA.UTF-8/LC_MESSAGES/gcc-4.3.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+30863 1240020435.869766 open("/usr/share/locale/en_CA.utf8/LC_MESSAGES/gcc-4.3.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+30863 1240020435.869806 open("/usr/share/locale/en_CA/LC_MESSAGES/gcc-4.3.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+30863 1240020435.869846 open("/usr/share/locale/en.UTF-8/LC_MESSAGES/gcc-4.3.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+30863 1240020435.869884 open("/usr/share/locale/en.utf8/LC_MESSAGES/gcc-4.3.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+30863 1240020435.869924 open("/usr/share/locale/en/LC_MESSAGES/gcc-4.3.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+30863 1240020435.869964 open("/usr/share/locale-langpack/en_CA.UTF-8/LC_MESSAGES/gcc-4.3.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+30863 1240020435.870004 open("/usr/share/locale-langpack/en_CA.utf8/LC_MESSAGES/gcc-4.3.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+30863 1240020435.870044 open("/usr/share/locale-langpack/en_CA/LC_MESSAGES/gcc-4.3.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+30863 1240020435.870085 open("/usr/share/locale-langpack/en.UTF-8/LC_MESSAGES/gcc-4.3.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+30863 1240020435.870125 open("/usr/share/locale-langpack/en.utf8/LC_MESSAGES/gcc-4.3.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+30863 1240020435.870165 open("/usr/share/locale-langpack/en/LC_MESSAGES/gcc-4.3.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+30863 1240020435.870368 stat("/usr/lib/gcc/x86_64-linux-gnu/4.3.2/real-ld", 0x7fff1bbd8a40) = -1 ENOENT (No such file or directory)
+30863 1240020435.870424 stat("/usr/lib/gcc/x86_64-linux-gnu/4.3.2/real-ld", 0x7fff1bbd8a40) = -1 ENOENT (No such file or directory)
+30863 1240020435.870463 stat("/usr/lib/gcc/x86_64-linux-gnu/real-ld", 0x7fff1bbd8a40) = -1 ENOENT (No such file or directory)
+30863 1240020435.870500 stat("/usr/lib/gcc/x86_64-linux-gnu/4.3.2/real-ld", 0x7fff1bbd8a40) = -1 ENOENT (No such file or directory)
+30863 1240020435.870539 stat("/usr/lib/gcc/x86_64-linux-gnu/real-ld", 0x7fff1bbd8a40) = -1 ENOENT (No such file or directory)
+30863 1240020435.870575 stat("/usr/lib/gcc/x86_64-linux-gnu/4.3.2/real-ld", 0x7fff1bbd8a40) = -1 ENOENT (No such file or directory)
+30863 1240020435.870614 stat("/usr/lib/gcc/x86_64-linux-gnu/real-ld", 0x7fff1bbd8a40) = -1 ENOENT (No such file or directory)
+30863 1240020435.870651 stat("/usr/lib/gcc/x86_64-linux-gnu/4.3.2/collect-ld", 0x7fff1bbd8a40) = -1 ENOENT (No such file or directory)
+30863 1240020435.870691 stat("/usr/lib/gcc/x86_64-linux-gnu/4.3.2/collect-ld", 0x7fff1bbd8a40) = -1 ENOENT (No such file or directory)
+30863 1240020435.870729 stat("/usr/lib/gcc/x86_64-linux-gnu/collect-ld", 0x7fff1bbd8a40) = -1 ENOENT (No such file or directory)
+30863 1240020435.870767 stat("/usr/lib/gcc/x86_64-linux-gnu/4.3.2/collect-ld", 0x7fff1bbd8a40) = -1 ENOENT (No such file or directory)
+30863 1240020435.870805 stat("/usr/lib/gcc/x86_64-linux-gnu/collect-ld", 0x7fff1bbd8a40) = -1 ENOENT (No such file or directory)
+30863 1240020435.870843 stat("/usr/lib/gcc/x86_64-linux-gnu/4.3.2/collect-ld", 0x7fff1bbd8a40) = -1 ENOENT (No such file or directory)
+30863 1240020435.870881 stat("/usr/lib/gcc/x86_64-linux-gnu/collect-ld", 0x7fff1bbd8a40) = -1 ENOENT (No such file or directory)
+30863 1240020435.870936 stat("/usr/lib/gcc/x86_64-linux-gnu/4.3.2/ld", 0x7fff1bbd8a40) = -1 ENOENT (No such file or directory)
+30863 1240020435.870974 stat("/usr/lib/gcc/x86_64-linux-gnu/4.3.2/ld", 0x7fff1bbd8a40) = -1 ENOENT (No such file or directory)
+30863 1240020435.871012 stat("/usr/lib/gcc/x86_64-linux-gnu/ld", 0x7fff1bbd8a40) = -1 ENOENT (No such file or directory)
+30863 1240020435.871049 stat("/usr/lib/gcc/x86_64-linux-gnu/4.3.2/ld", 0x7fff1bbd8a40) = -1 ENOENT (No such file or directory)
+30863 1240020435.871087 stat("/usr/lib/gcc/x86_64-linux-gnu/ld", 0x7fff1bbd8a40) = -1 ENOENT (No such file or directory)
+30863 1240020435.871144 stat("/usr/lib/gcc/x86_64-linux-gnu/4.3.2/ld", 0x7fff1bbd8a40) = -1 ENOENT (No such file or directory)
+30863 1240020435.871183 stat("/usr/lib/gcc/x86_64-linux-gnu/ld", 0x7fff1bbd8a40) = -1 ENOENT (No such file or directory)
+30863 1240020435.871220 stat("/home/al/build/lisaac/bin/ld", 0x7fff1bbd8a40) = -1 ENOENT (No such file or directory)
+30863 1240020435.871260 stat("/usr/local/sbin/ld", 0x7fff1bbd8a40) = -1 ENOENT (No such file or directory)
+30863 1240020435.871295 stat("/usr/local/bin/ld", 0x7fff1bbd8a40) = -1 ENOENT (No such file or directory)
+30863 1240020435.871330 stat("/usr/sbin/ld", 0x7fff1bbd8a40) = -1 ENOENT (No such file or directory)
+30863 1240020435.871364 stat("/usr/bin/ld", {st_mode=S_IFREG|0755, st_size=463752, ...}) = 0
+30863 1240020435.871419 access("/usr/bin/ld", X_OK) = 0
+30863 1240020435.871838 stat("/usr/lib/gcc/x86_64-linux-gnu/4.3.2/gnm", 0x7fff1bbd8a40) = -1 ENOENT (No such file or directory)
+30863 1240020435.871886 stat("/usr/lib/gcc/x86_64-linux-gnu/4.3.2/gnm", 0x7fff1bbd8a40) = -1 ENOENT (No such file or directory)
+30863 1240020435.871925 stat("/usr/lib/gcc/x86_64-linux-gnu/gnm", 0x7fff1bbd8a40) = -1 ENOENT (No such file or directory)
+30863 1240020435.871962 stat("/usr/lib/gcc/x86_64-linux-gnu/4.3.2/gnm", 0x7fff1bbd8a40) = -1 ENOENT (No such file or directory)
+30863 1240020435.871999 stat("/usr/lib/gcc/x86_64-linux-gnu/gnm", 0x7fff1bbd8a40) = -1 ENOENT (No such file or directory)
+30863 1240020435.872036 stat("/usr/lib/gcc/x86_64-linux-gnu/4.3.2/gnm", 0x7fff1bbd8a40) = -1 ENOENT (No such file or directory)
+30863 1240020435.872073 stat("/usr/lib/gcc/x86_64-linux-gnu/gnm", 0x7fff1bbd8a40) = -1 ENOENT (No such file or directory)
+30863 1240020435.872110 stat("/home/al/build/lisaac/bin/gnm", 0x7fff1bbd8a40) = -1 ENOENT (No such file or directory)
+30863 1240020435.872147 stat("/usr/local/sbin/gnm", 0x7fff1bbd8a40) = -1 ENOENT (No such file or directory)
+30863 1240020435.872181 stat("/usr/local/bin/gnm", 0x7fff1bbd8a40) = -1 ENOENT (No such file or directory)
+30863 1240020435.872216 stat("/usr/sbin/gnm", 0x7fff1bbd8a40) = -1 ENOENT (No such file or directory)
+30863 1240020435.872250 stat("/usr/bin/gnm", 0x7fff1bbd8a40) = -1 ENOENT (No such file or directory)
+30863 1240020435.872283 stat("/sbin/gnm", 0x7fff1bbd8a40) = -1 ENOENT (No such file or directory)
+30863 1240020435.872317 stat("/bin/gnm", 0x7fff1bbd8a40) = -1 ENOENT (No such file or directory)
+30863 1240020435.872351 stat("/usr/games/gnm", 0x7fff1bbd8a40) = -1 ENOENT (No such file or directory)
+30863 1240020435.872386 stat("/usr/lib/gcc/x86_64-linux-gnu/4.3.2/nm", 0x7fff1bbd8a40) = -1 ENOENT (No such file or directory)
+30863 1240020435.872431 stat("/usr/lib/gcc/x86_64-linux-gnu/4.3.2/nm", 0x7fff1bbd8a40) = -1 ENOENT (No such file or directory)
+30863 1240020435.872470 stat("/usr/lib/gcc/x86_64-linux-gnu/nm", 0x7fff1bbd8a40) = -1 ENOENT (No such file or directory)
+30863 1240020435.872506 stat("/usr/lib/gcc/x86_64-linux-gnu/4.3.2/nm", 0x7fff1bbd8a40) = -1 ENOENT (No such file or directory)
+30863 1240020435.872544 stat("/usr/lib/gcc/x86_64-linux-gnu/nm", 0x7fff1bbd8a40) = -1 ENOENT (No such file or directory)
+30863 1240020435.872580 stat("/usr/lib/gcc/x86_64-linux-gnu/4.3.2/nm", 0x7fff1bbd8a40) = -1 ENOENT (No such file or directory)
+30863 1240020435.872618 stat("/usr/lib/gcc/x86_64-linux-gnu/nm", 0x7fff1bbd8a40) = -1 ENOENT (No such file or directory)
+30863 1240020435.872686 stat("/home/al/build/lisaac/bin/nm", 0x7fff1bbd8a40) = -1 ENOENT (No such file or directory)
+30863 1240020435.872723 stat("/usr/local/sbin/nm", 0x7fff1bbd8a40) = -1 ENOENT (No such file or directory)
+30863 1240020435.872758 stat("/usr/local/bin/nm", 0x7fff1bbd8a40) = -1 ENOENT (No such file or directory)
+30863 1240020435.872792 stat("/usr/sbin/nm", 0x7fff1bbd8a40) = -1 ENOENT (No such file or directory)
+30863 1240020435.872826 stat("/usr/bin/nm", {st_mode=S_IFREG|0755, st_size=40496, ...}) = 0
+30863 1240020435.872878 access("/usr/bin/nm", X_OK) = 0
+30863 1240020435.873005 stat("/usr/lib/gcc/x86_64-linux-gnu/4.3.2/gstrip", 0x7fff1bbd8a40) = -1 ENOENT (No such file or directory)
+30863 1240020435.873045 stat("/usr/lib/gcc/x86_64-linux-gnu/4.3.2/gstrip", 0x7fff1bbd8a40) = -1 ENOENT (No such file or directory)
+30863 1240020435.873084 stat("/usr/lib/gcc/x86_64-linux-gnu/gstrip", 0x7fff1bbd8a40) = -1 ENOENT (No such file or directory)
+30863 1240020435.873120 stat("/usr/lib/gcc/x86_64-linux-gnu/4.3.2/gstrip", 0x7fff1bbd8a40) = -1 ENOENT (No such file or directory)
+30863 1240020435.873159 stat("/usr/lib/gcc/x86_64-linux-gnu/gstrip", 0x7fff1bbd8a40) = -1 ENOENT (No such file or directory)
+30863 1240020435.873196 stat("/usr/lib/gcc/x86_64-linux-gnu/4.3.2/gstrip", 0x7fff1bbd8a40) = -1 ENOENT (No such file or directory)
+30863 1240020435.873235 stat("/usr/lib/gcc/x86_64-linux-gnu/gstrip", 0x7fff1bbd8a40) = -1 ENOENT (No such file or directory)
+30863 1240020435.873272 stat("/home/al/build/lisaac/bin/gstrip", 0x7fff1bbd8a40) = -1 ENOENT (No such file or directory)
+30863 1240020435.873310 stat("/usr/local/sbin/gstrip", 0x7fff1bbd8a40) = -1 ENOENT (No such file or directory)
+30863 1240020435.873345 stat("/usr/local/bin/gstrip", 0x7fff1bbd8a40) = -1 ENOENT (No such file or directory)
+30863 1240020435.873380 stat("/usr/sbin/gstrip", 0x7fff1bbd8a40) = -1 ENOENT (No such file or directory)
+30863 1240020435.873414 stat("/usr/bin/gstrip", 0x7fff1bbd8a40) = -1 ENOENT (No such file or directory)
+30863 1240020435.873448 stat("/sbin/gstrip", 0x7fff1bbd8a40) = -1 ENOENT (No such file or directory)
+30863 1240020435.873481 stat("/bin/gstrip", 0x7fff1bbd8a40) = -1 ENOENT (No such file or directory)
+30863 1240020435.873515 stat("/usr/games/gstrip", 0x7fff1bbd8a40) = -1 ENOENT (No such file or directory)
+30863 1240020435.873550 stat("/usr/lib/gcc/x86_64-linux-gnu/4.3.2/strip", 0x7fff1bbd8a40) = -1 ENOENT (No such file or directory)
+30863 1240020435.873589 stat("/usr/lib/gcc/x86_64-linux-gnu/4.3.2/strip", 0x7fff1bbd8a40) = -1 ENOENT (No such file or directory)
+30863 1240020435.873628 stat("/usr/lib/gcc/x86_64-linux-gnu/strip", 0x7fff1bbd8a40) = -1 ENOENT (No such file or directory)
+30863 1240020435.873666 stat("/usr/lib/gcc/x86_64-linux-gnu/4.3.2/strip", 0x7fff1bbd8a40) = -1 ENOENT (No such file or directory)
+30863 1240020435.873704 stat("/usr/lib/gcc/x86_64-linux-gnu/strip", 0x7fff1bbd8a40) = -1 ENOENT (No such file or directory)
+30863 1240020435.873741 stat("/usr/lib/gcc/x86_64-linux-gnu/4.3.2/strip", 0x7fff1bbd8a40) = -1 ENOENT (No such file or directory)
+30863 1240020435.873780 stat("/usr/lib/gcc/x86_64-linux-gnu/strip", 0x7fff1bbd8a40) = -1 ENOENT (No such file or directory)
+30863 1240020435.873817 stat("/home/al/build/lisaac/bin/strip", 0x7fff1bbd8a40) = -1 ENOENT (No such file or directory)
+30863 1240020435.873854 stat("/usr/local/sbin/strip", 0x7fff1bbd8a40) = -1 ENOENT (No such file or directory)
+30863 1240020435.873889 stat("/usr/local/bin/strip", 0x7fff1bbd8a40) = -1 ENOENT (No such file or directory)
+30863 1240020435.873931 stat("/usr/sbin/strip", 0x7fff1bbd8a40) = -1 ENOENT (No such file or directory)
+30863 1240020435.873966 stat("/usr/bin/strip", {st_mode=S_IFREG|0755, st_size=211160, ...}) = 0
+30863 1240020435.874015 access("/usr/bin/strip", X_OK) = 0
+30863 1240020435.874049 stat("/usr/lib/gcc/x86_64-linux-gnu/4.3.2/gcc", 0x7fff1bbd8a40) = -1 ENOENT (No such file or directory)
+30863 1240020435.874089 stat("/usr/lib/gcc/x86_64-linux-gnu/4.3.2/gcc", 0x7fff1bbd8a40) = -1 ENOENT (No such file or directory)
+30863 1240020435.874142 stat("/usr/lib/gcc/x86_64-linux-gnu/gcc", 0x7fff1bbd8a40) = -1 ENOENT (No such file or directory)
+30863 1240020435.874180 stat("/usr/lib/gcc/x86_64-linux-gnu/4.3.2/gcc", 0x7fff1bbd8a40) = -1 ENOENT (No such file or directory)
+30863 1240020435.874218 stat("/usr/lib/gcc/x86_64-linux-gnu/gcc", 0x7fff1bbd8a40) = -1 ENOENT (No such file or directory)
+30863 1240020435.874255 stat("/usr/lib/gcc/x86_64-linux-gnu/4.3.2/gcc", 0x7fff1bbd8a40) = -1 ENOENT (No such file or directory)
+30863 1240020435.874293 stat("/usr/lib/gcc/x86_64-linux-gnu/gcc", 0x7fff1bbd8a40) = -1 ENOENT (No such file or directory)
+30863 1240020435.874330 stat("/home/al/build/lisaac/bin/gcc", 0x7fff1bbd8a40) = -1 ENOENT (No such file or directory)
+30863 1240020435.874367 stat("/usr/local/sbin/gcc", 0x7fff1bbd8a40) = -1 ENOENT (No such file or directory)
+30863 1240020435.874402 stat("/usr/local/bin/gcc", 0x7fff1bbd8a40) = -1 ENOENT (No such file or directory)
+30863 1240020435.874436 stat("/usr/sbin/gcc", 0x7fff1bbd8a40) = -1 ENOENT (No such file or directory)
+30863 1240020435.874473 stat("/usr/bin/gcc", {st_mode=S_IFREG|0755, st_size=242760, ...}) = 0
+30863 1240020435.874524 access("/usr/bin/gcc", X_OK) = 0
+30863 1240020435.874566 access("/tmp", R_OK|W_OK|X_OK) = 0
+30863 1240020435.874625 open("/tmp/cc25aHq9.c", O_RDWR|O_CREAT|O_EXCL, 0600) = 3
+30863 1240020435.874736 open("/tmp/ccMLZEG8.o", O_RDWR|O_CREAT|O_EXCL, 0600) = 3
+30863 1240020435.874808 open("/tmp/cceuOrW7.ld", O_RDWR|O_CREAT|O_EXCL, 0600) = 3
+30863 1240020435.874877 open("/tmp/ccIdRXb7.le", O_RDWR|O_CREAT|O_EXCL, 0600) = 3
+30863 1240020435.875057 open("/tmp/cceuOrW7.ld", O_WRONLY|O_CREAT|O_TRUNC, 0666) = 3
+30863 1240020435.875104 open("/tmp/ccIdRXb7.le", O_WRONLY|O_CREAT|O_TRUNC, 0666) = 4
+30863 1240020435.875166 vfork()         = 30864
+30863 1240020435.875468 wait4(30864,  <unfinished ...>
+30864 1240020435.875573 execve("/usr/bin/ld", ["/usr/bin/ld", "--eh-frame-hdr", "-m", "elf_x86_64", "--hash-style=both", "-dynamic-linker", "/lib64/ld-linux-x86-64.so.2", "-o", "build/percepio_parser", "-z", "relro", "/usr/lib/gcc/x86_64-linux-gnu/4.3.2/../../../../lib/crt1.o", "/usr/lib/gcc/x86_64-linux-gnu/4.3.2/../../../../lib/crti.o", "/usr/lib/gcc/x86_64-linux-gnu/4.3.2/crtbegin.o", "-L/usr/lib/ocaml/3.10.2/camlp4", "-L/usr/lib/ocaml/3.10.2/camlp4", "-L/usr/lib/ocaml/3.10.2", "-L/usr/lib/gcc/x86_64-linux-gnu/4.3.2", "-L/usr/lib/gcc/x86_64-linux-gnu/4.3.2", "-L/usr/lib/gcc/x86_64-linux-gnu/4.3.2/../../../../lib", "-L/lib/../lib", "-L/usr/lib/../lib", "-L/usr/lib/gcc/x86_64-linux-gnu/4.3.2/../../..", "/tmp/camlstartupa55c34.o", "/usr/lib/ocaml/3.10.2/std_exit.o", "build/percepio_parser.o", "/usr/lib/ocaml/3.10.2/stdlib.a", "/usr/lib/ocaml/3.10.2/libasmrun.a", "-lm", "-ldl", "-lgcc", "--as-needed", "-lgcc_s", "--no-as-needed", "-lc", "-lgcc", "--as-needed", "-lgcc_s", "--no-as-needed", "/usr/lib/gcc/x86_64-linux-gnu/4.3.2/crtend.o", "/usr/lib/gcc/x86_64-linux-gnu/4.3.2/../../../../lib/crtn.o"], [/* 45 vars */]) = 0
+30864 1240020435.876527 access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+30864 1240020435.876606 access("/etc/ld.so.preload", R_OK) = -1 ENOENT (No such file or directory)
+30864 1240020435.876654 open("/etc/ld.so.cache", O_RDONLY) = 3
+30864 1240020435.876732 access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+30864 1240020435.876780 open("/usr/lib/libbfd-2.18.93.20081009.so", O_RDONLY) = 3
+30864 1240020435.877151 access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+30864 1240020435.877204 open("/usr/lib/libz.so.1", O_RDONLY) = 3
+30864 1240020435.877348 access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+30864 1240020435.877386 open("/lib/libc.so.6", O_RDONLY) = 3
+30864 1240020435.877592 arch_prctl(ARCH_SET_FS, 0x2b7cff8e2e10) = 0
+30864 1240020435.879362 stat("build/percepio_parser", 0x7fffabc69a70) = -1 ENOENT (No such file or directory)
+30864 1240020435.879470 open("build/percepio_parser", O_RDWR|O_CREAT|O_TRUNC, 0666) = 3
+30864 1240020435.879645 stat("/usr/lib/gcc/x86_64-linux-gnu/4.3.2/../../../../lib/crt1.o", {st_mode=S_IFREG|0644, st_size=3229, ...}) = 0
+30864 1240020435.879782 open("/usr/lib/gcc/x86_64-linux-gnu/4.3.2/../../../../lib/crt1.o", O_RDONLY) = 4
+30864 1240020435.880318 stat("/usr/lib/gcc/x86_64-linux-gnu/4.3.2/../../../../lib/crti.o", {st_mode=S_IFREG|0644, st_size=3216, ...}) = 0
+30864 1240020435.880395 open("/usr/lib/gcc/x86_64-linux-gnu/4.3.2/../../../../lib/crti.o", O_RDONLY) = 5
+30864 1240020435.880818 stat("/usr/lib/gcc/x86_64-linux-gnu/4.3.2/crtbegin.o", {st_mode=S_IFREG|0644, st_size=2512, ...}) = 0
+30864 1240020435.880886 open("/usr/lib/gcc/x86_64-linux-gnu/4.3.2/crtbegin.o", O_RDONLY) = 6
+30864 1240020435.881311 stat("/tmp/camlstartupa55c34.o", {st_mode=S_IFREG|0600, st_size=20680, ...}) = 0
+30864 1240020435.881374 open("/tmp/camlstartupa55c34.o", O_RDONLY) = 7
+30864 1240020435.882087 stat("/usr/lib/ocaml/3.10.2/std_exit.o", {st_mode=S_IFREG|0644, st_size=1304, ...}) = 0
+30864 1240020435.882161 open("/usr/lib/ocaml/3.10.2/std_exit.o", O_RDONLY) = 8
+30864 1240020435.882588 stat("build/percepio_parser.o", {st_mode=S_IFREG|0644, st_size=6576, ...}) = 0
+30864 1240020435.882649 open("build/percepio_parser.o", O_RDONLY) = 9
+30864 1240020435.883338 stat("/usr/lib/ocaml/3.10.2/stdlib.a", {st_mode=S_IFREG|0644, st_size=878118, ...}) = 0
+30864 1240020435.883443 open("/usr/lib/ocaml/3.10.2/stdlib.a", O_RDONLY) = 10
+30864 1240020435.888529 stat("/usr/lib/ocaml/3.10.2/libasmrun.a", {st_mode=S_IFREG|0644, st_size=279218, ...}) = 0
+30864 1240020435.888782 open("/usr/lib/ocaml/3.10.2/libasmrun.a", O_RDONLY) = 11
+30862 1240020435.899597 wait4(30863,  <unfinished ...>
+30864 1240020435.899843 stat("/usr/lib/ocaml/3.10.2/camlp4/libm.so", 0x7fffabc69930) = -1 ENOENT (No such file or directory)
+30864 1240020435.899925 open("/usr/lib/ocaml/3.10.2/camlp4/libm.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+30864 1240020435.899983 stat("/usr/lib/ocaml/3.10.2/camlp4/libm.a", 0x7fffabc69970) = -1 ENOENT (No such file or directory)
+30864 1240020435.900023 open("/usr/lib/ocaml/3.10.2/camlp4/libm.a", O_RDONLY) = -1 ENOENT (No such file or directory)
+30864 1240020435.900066 stat("/usr/lib/ocaml/3.10.2/camlp4/libm.so", 0x7fffabc69930) = -1 ENOENT (No such file or directory)
+30864 1240020435.900106 open("/usr/lib/ocaml/3.10.2/camlp4/libm.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+30864 1240020435.900145 stat("/usr/lib/ocaml/3.10.2/camlp4/libm.a", 0x7fffabc69970) = -1 ENOENT (No such file or directory)
+30864 1240020435.900184 open("/usr/lib/ocaml/3.10.2/camlp4/libm.a", O_RDONLY) = -1 ENOENT (No such file or directory)
+30864 1240020435.900235 stat("/usr/lib/ocaml/3.10.2/libm.so", 0x7fffabc69930) = -1 ENOENT (No such file or directory)
+30864 1240020435.900274 open("/usr/lib/ocaml/3.10.2/libm.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+30864 1240020435.900312 stat("/usr/lib/ocaml/3.10.2/libm.a", 0x7fffabc69970) = -1 ENOENT (No such file or directory)
+30864 1240020435.900351 open("/usr/lib/ocaml/3.10.2/libm.a", O_RDONLY) = -1 ENOENT (No such file or directory)
+30864 1240020435.900393 stat("/usr/lib/gcc/x86_64-linux-gnu/4.3.2/libm.so", 0x7fffabc69930) = -1 ENOENT (No such file or directory)
+30864 1240020435.900439 open("/usr/lib/gcc/x86_64-linux-gnu/4.3.2/libm.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+30864 1240020435.900481 stat("/usr/lib/gcc/x86_64-linux-gnu/4.3.2/libm.a", 0x7fffabc69970) = -1 ENOENT (No such file or directory)
+30864 1240020435.900521 open("/usr/lib/gcc/x86_64-linux-gnu/4.3.2/libm.a", O_RDONLY) = -1 ENOENT (No such file or directory)
+30864 1240020435.900566 stat("/usr/lib/gcc/x86_64-linux-gnu/4.3.2/libm.so", 0x7fffabc69930) = -1 ENOENT (No such file or directory)
+30864 1240020435.900607 open("/usr/lib/gcc/x86_64-linux-gnu/4.3.2/libm.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+30864 1240020435.900648 stat("/usr/lib/gcc/x86_64-linux-gnu/4.3.2/libm.a", 0x7fffabc69970) = -1 ENOENT (No such file or directory)
+30864 1240020435.900689 open("/usr/lib/gcc/x86_64-linux-gnu/4.3.2/libm.a", O_RDONLY) = -1 ENOENT (No such file or directory)
+30864 1240020435.900775 stat("/usr/lib/gcc/x86_64-linux-gnu/4.3.2/../../../../lib/libm.so", {st_mode=S_IFREG|0644, st_size=542936, ...}) = 0
+30864 1240020435.900857 open("/usr/lib/gcc/x86_64-linux-gnu/4.3.2/../../../../lib/libm.so", O_RDONLY) = 12
+30864 1240020435.902373 stat("/usr/lib/ocaml/3.10.2/camlp4/libdl.so", 0x7fffabc69930) = -1 ENOENT (No such file or directory)
+30864 1240020435.902465 open("/usr/lib/ocaml/3.10.2/camlp4/libdl.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+30864 1240020435.902514 stat("/usr/lib/ocaml/3.10.2/camlp4/libdl.a", 0x7fffabc69970) = -1 ENOENT (No such file or directory)
+30864 1240020435.902554 open("/usr/lib/ocaml/3.10.2/camlp4/libdl.a", O_RDONLY) = -1 ENOENT (No such file or directory)
+30864 1240020435.902598 stat("/usr/lib/ocaml/3.10.2/camlp4/libdl.so", 0x7fffabc69930) = -1 ENOENT (No such file or directory)
+30864 1240020435.902639 open("/usr/lib/ocaml/3.10.2/camlp4/libdl.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+30864 1240020435.902678 stat("/usr/lib/ocaml/3.10.2/camlp4/libdl.a", 0x7fffabc69970) = -1 ENOENT (No such file or directory)
+30864 1240020435.902717 open("/usr/lib/ocaml/3.10.2/camlp4/libdl.a", O_RDONLY) = -1 ENOENT (No such file or directory)
+30864 1240020435.902760 stat("/usr/lib/ocaml/3.10.2/libdl.so", 0x7fffabc69930) = -1 ENOENT (No such file or directory)
+30864 1240020435.902799 open("/usr/lib/ocaml/3.10.2/libdl.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+30864 1240020435.902838 stat("/usr/lib/ocaml/3.10.2/libdl.a", 0x7fffabc69970) = -1 ENOENT (No such file or directory)
+30864 1240020435.902876 open("/usr/lib/ocaml/3.10.2/libdl.a", O_RDONLY) = -1 ENOENT (No such file or directory)
+30864 1240020435.902918 stat("/usr/lib/gcc/x86_64-linux-gnu/4.3.2/libdl.so", 0x7fffabc69930) = -1 ENOENT (No such file or directory)
+30864 1240020435.902964 open("/usr/lib/gcc/x86_64-linux-gnu/4.3.2/libdl.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+30864 1240020435.903005 stat("/usr/lib/gcc/x86_64-linux-gnu/4.3.2/libdl.a", 0x7fffabc69970) = -1 ENOENT (No such file or directory)
+30864 1240020435.903046 open("/usr/lib/gcc/x86_64-linux-gnu/4.3.2/libdl.a", O_RDONLY) = -1 ENOENT (No such file or directory)
+30864 1240020435.903091 stat("/usr/lib/gcc/x86_64-linux-gnu/4.3.2/libdl.so", 0x7fffabc69930) = -1 ENOENT (No such file or directory)
+30864 1240020435.903154 open("/usr/lib/gcc/x86_64-linux-gnu/4.3.2/libdl.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+30864 1240020435.903196 stat("/usr/lib/gcc/x86_64-linux-gnu/4.3.2/libdl.a", 0x7fffabc69970) = -1 ENOENT (No such file or directory)
+30864 1240020435.903236 open("/usr/lib/gcc/x86_64-linux-gnu/4.3.2/libdl.a", O_RDONLY) = -1 ENOENT (No such file or directory)
+30864 1240020435.903281 stat("/usr/lib/gcc/x86_64-linux-gnu/4.3.2/../../../../lib/libdl.so", {st_mode=S_IFREG|0644, st_size=14608, ...}) = 0
+30864 1240020435.903359 open("/usr/lib/gcc/x86_64-linux-gnu/4.3.2/../../../../lib/libdl.so", O_RDONLY) = 13
+30864 1240020435.907799 stat("/usr/lib/ocaml/3.10.2/camlp4/libgcc.so", 0x7fffabc69930) = -1 ENOENT (No such file or directory)
+30864 1240020435.907919 open("/usr/lib/ocaml/3.10.2/camlp4/libgcc.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+30864 1240020435.907969 stat("/usr/lib/ocaml/3.10.2/camlp4/libgcc.a", 0x7fffabc69970) = -1 ENOENT (No such file or directory)
+30864 1240020435.908008 open("/usr/lib/ocaml/3.10.2/camlp4/libgcc.a", O_RDONLY) = -1 ENOENT (No such file or directory)
+30864 1240020435.908052 stat("/usr/lib/ocaml/3.10.2/camlp4/libgcc.so", 0x7fffabc69930) = -1 ENOENT (No such file or directory)
+30864 1240020435.908092 open("/usr/lib/ocaml/3.10.2/camlp4/libgcc.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+30864 1240020435.908132 stat("/usr/lib/ocaml/3.10.2/camlp4/libgcc.a", 0x7fffabc69970) = -1 ENOENT (No such file or directory)
+30864 1240020435.908170 open("/usr/lib/ocaml/3.10.2/camlp4/libgcc.a", O_RDONLY) = -1 ENOENT (No such file or directory)
+30864 1240020435.908213 stat("/usr/lib/ocaml/3.10.2/libgcc.so", 0x7fffabc69930) = -1 ENOENT (No such file or directory)
+30864 1240020435.908365 open("/usr/lib/ocaml/3.10.2/libgcc.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+30864 1240020435.908405 stat("/usr/lib/ocaml/3.10.2/libgcc.a", 0x7fffabc69970) = -1 ENOENT (No such file or directory)
+30864 1240020435.908443 open("/usr/lib/ocaml/3.10.2/libgcc.a", O_RDONLY) = -1 ENOENT (No such file or directory)
+30864 1240020435.908583 stat("/usr/lib/gcc/x86_64-linux-gnu/4.3.2/libgcc.so", 0x7fffabc69930) = -1 ENOENT (No such file or directory)
+30864 1240020435.908632 open("/usr/lib/gcc/x86_64-linux-gnu/4.3.2/libgcc.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+30864 1240020435.908674 stat("/usr/lib/gcc/x86_64-linux-gnu/4.3.2/libgcc.a", {st_mode=S_IFREG|0644, st_size=3027542, ...}) = 0
+30864 1240020435.908735 open("/usr/lib/gcc/x86_64-linux-gnu/4.3.2/libgcc.a", O_RDONLY) = 3
+30864 1240020435.909336 stat("/usr/lib/ocaml/3.10.2/camlp4/libgcc_s.so", 0x7fffabc69930) = -1 ENOENT (No such file or directory)
+30864 1240020435.909392 open("/usr/lib/ocaml/3.10.2/camlp4/libgcc_s.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+30864 1240020435.909435 stat("/usr/lib/ocaml/3.10.2/camlp4/libgcc_s.a", 0x7fffabc69970) = -1 ENOENT (No such file or directory)
+30864 1240020435.909475 open("/usr/lib/ocaml/3.10.2/camlp4/libgcc_s.a", O_RDONLY) = -1 ENOENT (No such file or directory)
+30864 1240020435.909519 stat("/usr/lib/ocaml/3.10.2/camlp4/libgcc_s.so", 0x7fffabc69930) = -1 ENOENT (No such file or directory)
+30864 1240020435.909560 open("/usr/lib/ocaml/3.10.2/camlp4/libgcc_s.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+30864 1240020435.909600 stat("/usr/lib/ocaml/3.10.2/camlp4/libgcc_s.a", 0x7fffabc69970) = -1 ENOENT (No such file or directory)
+30864 1240020435.909639 open("/usr/lib/ocaml/3.10.2/camlp4/libgcc_s.a", O_RDONLY) = -1 ENOENT (No such file or directory)
+30864 1240020435.909683 stat("/usr/lib/ocaml/3.10.2/libgcc_s.so", 0x7fffabc69930) = -1 ENOENT (No such file or directory)
+30864 1240020435.909723 open("/usr/lib/ocaml/3.10.2/libgcc_s.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+30864 1240020435.909762 stat("/usr/lib/ocaml/3.10.2/libgcc_s.a", 0x7fffabc69970) = -1 ENOENT (No such file or directory)
+30864 1240020435.909801 open("/usr/lib/ocaml/3.10.2/libgcc_s.a", O_RDONLY) = -1 ENOENT (No such file or directory)
+30864 1240020435.909844 stat("/usr/lib/gcc/x86_64-linux-gnu/4.3.2/libgcc_s.so", {st_mode=S_IFREG|0644, st_size=96560, ...}) = 0
+30864 1240020435.909911 open("/usr/lib/gcc/x86_64-linux-gnu/4.3.2/libgcc_s.so", O_RDONLY) = 4
+30864 1240020435.912719 stat("/usr/lib/ocaml/3.10.2/camlp4/libc.so", 0x7fffabc69930) = -1 ENOENT (No such file or directory)
+30864 1240020435.912840 open("/usr/lib/ocaml/3.10.2/camlp4/libc.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+30864 1240020435.912890 stat("/usr/lib/ocaml/3.10.2/camlp4/libc.a", 0x7fffabc69970) = -1 ENOENT (No such file or directory)
+30864 1240020435.912930 open("/usr/lib/ocaml/3.10.2/camlp4/libc.a", O_RDONLY) = -1 ENOENT (No such file or directory)
+30864 1240020435.912973 stat("/usr/lib/ocaml/3.10.2/camlp4/libc.so", 0x7fffabc69930) = -1 ENOENT (No such file or directory)
+30864 1240020435.913013 open("/usr/lib/ocaml/3.10.2/camlp4/libc.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+30864 1240020435.913053 stat("/usr/lib/ocaml/3.10.2/camlp4/libc.a", 0x7fffabc69970) = -1 ENOENT (No such file or directory)
+30864 1240020435.913136 open("/usr/lib/ocaml/3.10.2/camlp4/libc.a", O_RDONLY) = -1 ENOENT (No such file or directory)
+30864 1240020435.913180 stat("/usr/lib/ocaml/3.10.2/libc.so", 0x7fffabc69930) = -1 ENOENT (No such file or directory)
+30864 1240020435.913219 open("/usr/lib/ocaml/3.10.2/libc.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+30864 1240020435.913258 stat("/usr/lib/ocaml/3.10.2/libc.a", 0x7fffabc69970) = -1 ENOENT (No such file or directory)
+30864 1240020435.913295 open("/usr/lib/ocaml/3.10.2/libc.a", O_RDONLY) = -1 ENOENT (No such file or directory)
+30864 1240020435.913338 stat("/usr/lib/gcc/x86_64-linux-gnu/4.3.2/libc.so", 0x7fffabc69930) = -1 ENOENT (No such file or directory)
+30864 1240020435.913385 open("/usr/lib/gcc/x86_64-linux-gnu/4.3.2/libc.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+30864 1240020435.913472 stat("/usr/lib/gcc/x86_64-linux-gnu/4.3.2/libc.a", 0x7fffabc69970) = -1 ENOENT (No such file or directory)
+30864 1240020435.913513 open("/usr/lib/gcc/x86_64-linux-gnu/4.3.2/libc.a", O_RDONLY) = -1 ENOENT (No such file or directory)
+30864 1240020435.913558 stat("/usr/lib/gcc/x86_64-linux-gnu/4.3.2/libc.so", 0x7fffabc69930) = -1 ENOENT (No such file or directory)
+30864 1240020435.913600 open("/usr/lib/gcc/x86_64-linux-gnu/4.3.2/libc.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+30864 1240020435.913641 stat("/usr/lib/gcc/x86_64-linux-gnu/4.3.2/libc.a", 0x7fffabc69970) = -1 ENOENT (No such file or directory)
+30864 1240020435.913681 open("/usr/lib/gcc/x86_64-linux-gnu/4.3.2/libc.a", O_RDONLY) = -1 ENOENT (No such file or directory)
+30864 1240020435.913727 stat("/usr/lib/gcc/x86_64-linux-gnu/4.3.2/../../../../lib/libc.so", {st_mode=S_IFREG|0644, st_size=247, ...}) = 0
+30864 1240020435.913793 open("/usr/lib/gcc/x86_64-linux-gnu/4.3.2/../../../../lib/libc.so", O_RDONLY) = 5
+30864 1240020435.914661 open("/usr/lib/gcc/x86_64-linux-gnu/4.3.2/../../../../lib/libc.so", O_RDONLY) = 6
+30864 1240020435.918010 open("/usr/lib/gcc/x86_64-linux-gnu/4.3.2/../../../../lib/libc.so", O_RDONLY) = 5
+30864 1240020435.918299 stat("/lib/libc.so.6", {st_mode=S_IFREG|0755, st_size=1502520, ...}) = 0
+30864 1240020435.918365 open("/lib/libc.so.6", O_RDONLY) = 6
+30864 1240020435.936303 stat("/usr/lib/libc_nonshared.a", {st_mode=S_IFREG|0644, st_size=21070, ...}) = 0
+30864 1240020435.936627 open("/usr/lib/libc_nonshared.a", O_RDONLY) = 14
+30864 1240020435.943378 stat("/lib/ld-linux-x86-64.so.2", {st_mode=S_IFREG|0755, st_size=131584, ...}) = 0
+30864 1240020435.943507 open("/lib/ld-linux-x86-64.so.2", O_RDONLY) = 7
+30864 1240020435.956064 stat("/usr/lib/ocaml/3.10.2/camlp4/libgcc.so", 0x7fffabc69930) = -1 ENOENT (No such file or directory)
+30864 1240020435.956357 open("/usr/lib/ocaml/3.10.2/camlp4/libgcc.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+30864 1240020435.956407 stat("/usr/lib/ocaml/3.10.2/camlp4/libgcc.a", 0x7fffabc69970) = -1 ENOENT (No such file or directory)
+30864 1240020435.956446 open("/usr/lib/ocaml/3.10.2/camlp4/libgcc.a", O_RDONLY) = -1 ENOENT (No such file or directory)
+30864 1240020435.956490 stat("/usr/lib/ocaml/3.10.2/camlp4/libgcc.so", 0x7fffabc69930) = -1 ENOENT (No such file or directory)
+30864 1240020435.956530 open("/usr/lib/ocaml/3.10.2/camlp4/libgcc.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+30864 1240020435.956571 stat("/usr/lib/ocaml/3.10.2/camlp4/libgcc.a", 0x7fffabc69970) = -1 ENOENT (No such file or directory)
+30864 1240020435.956609 open("/usr/lib/ocaml/3.10.2/camlp4/libgcc.a", O_RDONLY) = -1 ENOENT (No such file or directory)
+30864 1240020435.956652 stat("/usr/lib/ocaml/3.10.2/libgcc.so", 0x7fffabc69930) = -1 ENOENT (No such file or directory)
+30864 1240020435.956691 open("/usr/lib/ocaml/3.10.2/libgcc.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+30864 1240020435.956729 stat("/usr/lib/ocaml/3.10.2/libgcc.a", 0x7fffabc69970) = -1 ENOENT (No such file or directory)
+30864 1240020435.956766 open("/usr/lib/ocaml/3.10.2/libgcc.a", O_RDONLY) = -1 ENOENT (No such file or directory)
+30864 1240020435.956906 stat("/usr/lib/gcc/x86_64-linux-gnu/4.3.2/libgcc.so", 0x7fffabc69930) = -1 ENOENT (No such file or directory)
+30864 1240020435.957348 open("/usr/lib/gcc/x86_64-linux-gnu/4.3.2/libgcc.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+30864 1240020435.957395 stat("/usr/lib/gcc/x86_64-linux-gnu/4.3.2/libgcc.a", {st_mode=S_IFREG|0644, st_size=3027542, ...}) = 0
+30864 1240020435.957458 open("/usr/lib/gcc/x86_64-linux-gnu/4.3.2/libgcc.a", O_RDONLY) = 8
+30864 1240020435.958087 stat("/usr/lib/ocaml/3.10.2/camlp4/libgcc_s.so", 0x7fffabc69930) = -1 ENOENT (No such file or directory)
+30864 1240020435.958144 open("/usr/lib/ocaml/3.10.2/camlp4/libgcc_s.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+30864 1240020435.958186 stat("/usr/lib/ocaml/3.10.2/camlp4/libgcc_s.a", 0x7fffabc69970) = -1 ENOENT (No such file or directory)
+30864 1240020435.958341 open("/usr/lib/ocaml/3.10.2/camlp4/libgcc_s.a", O_RDONLY) = -1 ENOENT (No such file or directory)
+30864 1240020435.958386 stat("/usr/lib/ocaml/3.10.2/camlp4/libgcc_s.so", 0x7fffabc69930) = -1 ENOENT (No such file or directory)
+30864 1240020435.958427 open("/usr/lib/ocaml/3.10.2/camlp4/libgcc_s.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+30864 1240020435.958468 stat("/usr/lib/ocaml/3.10.2/camlp4/libgcc_s.a", 0x7fffabc69970) = -1 ENOENT (No such file or directory)
+30864 1240020435.958506 open("/usr/lib/ocaml/3.10.2/camlp4/libgcc_s.a", O_RDONLY) = -1 ENOENT (No such file or directory)
+30864 1240020435.958550 stat("/usr/lib/ocaml/3.10.2/libgcc_s.so", 0x7fffabc69930) = -1 ENOENT (No such file or directory)
+30864 1240020435.958591 open("/usr/lib/ocaml/3.10.2/libgcc_s.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+30864 1240020435.958630 stat("/usr/lib/ocaml/3.10.2/libgcc_s.a", 0x7fffabc69970) = -1 ENOENT (No such file or directory)
+30864 1240020435.958669 open("/usr/lib/ocaml/3.10.2/libgcc_s.a", O_RDONLY) = -1 ENOENT (No such file or directory)
+30864 1240020435.958712 stat("/usr/lib/gcc/x86_64-linux-gnu/4.3.2/libgcc_s.so", {st_mode=S_IFREG|0644, st_size=96560, ...}) = 0
+30864 1240020435.958775 open("/usr/lib/gcc/x86_64-linux-gnu/4.3.2/libgcc_s.so", O_RDONLY) = 9
+30864 1240020435.985340 stat("/usr/lib/gcc/x86_64-linux-gnu/4.3.2/crtend.o", {st_mode=S_IFREG|0644, st_size=1904, ...}) = 0
+30864 1240020435.985495 open("/usr/lib/gcc/x86_64-linux-gnu/4.3.2/crtend.o", O_RDONLY) = 10
+30864 1240020435.985986 stat("/usr/lib/gcc/x86_64-linux-gnu/4.3.2/../../../../lib/crtn.o", {st_mode=S_IFREG|0644, st_size=2648, ...}) = 0
+30864 1240020435.986051 open("/usr/lib/gcc/x86_64-linux-gnu/4.3.2/../../../../lib/crtn.o", O_RDONLY) = 11
+30864 1240020435.986520 stat("/lib/ld-linux-x86-64.so.2", {st_mode=S_IFREG|0755, st_size=131584, ...}) = 0
+30864 1240020435.986587 open("/lib/ld-linux-x86-64.so.2", O_RDONLY) = 12
+30864 1240020435.987239 open("/usr/lib/gcc/x86_64-linux-gnu/4.3.2/../../../../lib/crt1.o", O_RDONLY) = 3
+30864 1240020435.987409 open("/usr/lib/gcc/x86_64-linux-gnu/4.3.2/../../../../lib/crti.o", O_RDONLY) = 4
+30864 1240020435.987545 open("/usr/lib/gcc/x86_64-linux-gnu/4.3.2/crtbegin.o", O_RDONLY) = 6
+30864 1240020435.987677 open("/tmp/camlstartupa55c34.o", O_RDONLY) = 13
+30864 1240020435.987806 open("/usr/lib/ocaml/3.10.2/std_exit.o", O_RDONLY) = 7
+30864 1240020435.987935 open("build/percepio_parser.o", O_RDONLY) = 8
+30864 1240020435.988063 open("/usr/lib/ocaml/3.10.2/stdlib.a", O_RDONLY) = 9
+30864 1240020435.988192 open("/usr/lib/ocaml/3.10.2/libasmrun.a", O_RDONLY) = 10
+30864 1240020435.988319 open("/usr/lib/gcc/x86_64-linux-gnu/4.3.2/../../../../lib/libm.so", O_RDONLY) = 11
+30864 1240020435.988456 open("/usr/lib/gcc/x86_64-linux-gnu/4.3.2/../../../../lib/libdl.so", O_RDONLY) = 12
+30864 1240020435.988590 open("/usr/lib/gcc/x86_64-linux-gnu/4.3.2/libgcc.a", O_RDONLY) = 3
+30864 1240020435.988719 open("/usr/lib/gcc/x86_64-linux-gnu/4.3.2/libgcc.a", O_RDONLY) = 4
+30864 1240020435.988846 open("/usr/lib/gcc/x86_64-linux-gnu/4.3.2/crtend.o", O_RDONLY) = 6
+30864 1240020435.988973 open("/usr/lib/gcc/x86_64-linux-gnu/4.3.2/../../../../lib/crtn.o", O_RDONLY) = 13
+30864 1240020435.989104 open("/lib/libc.so.6", O_RDONLY) = 7
+30864 1240020435.989227 open("/usr/lib/libc_nonshared.a", O_RDONLY) = 8
+30864 1240020435.989358 open("/lib/ld-linux-x86-64.so.2", O_RDONLY) = 9
+30864 1240020435.995102 open("/usr/lib/gcc/x86_64-linux-gnu/4.3.2/../../../../lib/crt1.o", O_RDONLY) = 10
+30864 1240020435.995746 open("/usr/lib/ocaml/3.10.2/libasmrun.a", O_RDONLY) = 11
+30864 1240020436.020336 open("build/percepio_parser", O_RDWR) = 12
+30864 1240020436.021586 open("/usr/lib/gcc/x86_64-linux-gnu/4.3.2/../../../../lib/crti.o", O_RDONLY) = 3
+30864 1240020436.022361 open("/usr/lib/gcc/x86_64-linux-gnu/4.3.2/crtbegin.o", O_RDONLY) = 4
+30864 1240020436.023868 open("/tmp/camlstartupa55c34.o", O_RDONLY) = 7
+30864 1240020436.024267 open("/usr/lib/ocaml/3.10.2/std_exit.o", O_RDONLY) = 9
+30864 1240020436.024568 open("build/percepio_parser.o", O_RDONLY) = 11
+30864 1240020436.025024 open("/usr/lib/ocaml/3.10.2/stdlib.a", O_RDONLY) = 8
+30864 1240020436.030538 open("/usr/lib/ocaml/3.10.2/libasmrun.a", O_RDONLY) = 10
+30864 1240020436.046087 open("/usr/lib/libc_nonshared.a", O_RDONLY) = 3
+30864 1240020436.054257 open("/proc/meminfo", O_RDONLY) = 14
+30864 1240020436.054960 stat("build/percepio_parser", {st_mode=S_IFREG|0644, st_size=296994, ...}) = 0
+30864 1240020436.055461 chmod("build/percepio_parser", 0755) = 0
+30864 1240020436.055535 exit_group(0)   = ?
+30863 1240020436.057603 <... wait4 resumed> [{WIFEXITED(s) && WEXITSTATUS(s) == 0}], 0, NULL) = 30864
+30863 1240020436.057671 --- SIGCHLD (Child exited) @ 0 (0) ---
+30863 1240020436.057760 getcwd("/home/al/src/percipio", 4097) = 22
+30863 1240020436.057812 open("/tmp/cceuOrW7.ld", O_RDONLY) = 3
+30863 1240020436.057974 unlink("/tmp/cceuOrW7.ld") = 0
+30863 1240020436.058108 open("/tmp/ccIdRXb7.le", O_RDONLY) = 3
+30863 1240020436.058213 unlink("/tmp/ccIdRXb7.le") = 0
+30863 1240020436.058361 lstat("/tmp/cc25aHq9.c", {st_mode=S_IFREG|0600, st_size=0, ...}) = 0
+30863 1240020436.058417 unlink("/tmp/cc25aHq9.c") = 0
+30863 1240020436.058488 lstat("/tmp/ccMLZEG8.o", {st_mode=S_IFREG|0600, st_size=0, ...}) = 0
+30863 1240020436.058537 unlink("/tmp/ccMLZEG8.o") = 0
+30863 1240020436.058619 exit_group(0)   = ?
+30862 1240020436.058736 <... wait4 resumed> [{WIFEXITED(s) && WEXITSTATUS(s) == 0}], 0, NULL) = 30863
+30862 1240020436.058756 --- SIGCHLD (Child exited) @ 0 (0) ---
+30862 1240020436.058789 exit_group(0)   = ?
+30861 1240020436.058891 <... wait4 resumed> [{WIFEXITED(s) && WEXITSTATUS(s) == 0}], 0, NULL) = 30862
+30861 1240020436.058910 --- SIGCHLD (Child exited) @ 0 (0) ---
+30861 1240020436.058942 exit_group(0)   = ?
+30858 1240020436.059023 <... wait4 resumed> [{WIFEXITED(s) && WEXITSTATUS(s) == 0}], 0, NULL) = 30861
+30858 1240020436.059084 --- SIGCHLD (Child exited) @ 0 (0) ---
+30858 1240020436.059248 unlink("/tmp/camlstartup168eb1.s") = 0
+30858 1240020436.059400 unlink("/tmp/camlstartupa55c34.o") = 0
+30858 1240020436.059560 exit_group(0)   = ?
+30857 1240020436.060039 <... wait4 resumed> [{WIFEXITED(s) && WEXITSTATUS(s) == 0}], 0, NULL) = 30858
+30857 1240020436.060066 --- SIGCHLD (Child exited) @ 0 (0) ---
+30857 1240020436.060148 exit_group(0)   = ?
+30846 1240020436.060382 <... wait4 resumed> [{WIFEXITED(s) && WEXITSTATUS(s) == 0}], 0, NULL) = 30857
+30846 1240020436.060401 --- SIGCHLD (Child exited) @ 0 (0) ---
+30846 1240020436.060468 stat("build/percepio_parser", {st_mode=S_IFREG|0755, st_size=296994, ...}) = 0
+30846 1240020436.060568 chdir("/home/al/src/percipio") = 0
+30846 1240020436.060673 exit_group(0)   = ?

@@ -74,7 +74,76 @@ let print_token = function
   | Char c   -> printf "(C %C)" c
 ;;
 
+(** eat tokens and print them until the newline *)
+let rec p_print_to_end = parser
+    [< 'Kwd ";" >] -> printf "\n";
+  | [< 't; rest >] -> print_token t; p_print_to_end rest
+;;
+
+(** eat tokens until the newline (semicolon) *)
+let rec p_eat_to_nl = parser
+    [< 'Kwd ";" >] -> ()
+  | [< '_; rest >] -> p_eat_to_nl rest
+
+(** parse the return codes *)
+let p_ret_code = parser
+    [< 'Kwd "="; 'Int r; ()=p_eat_to_nl >] -> r
+;;
+
+(** parse lists of strings *)
+let p_str_list =
+  let rec p_tail acc = parser
+      [< 'Kwd ","; 'String s; rest >] -> p_tail (s::acc) rest
+    | [< 'Kwd "]" >] -> List.rev acc
+  in
+  let p_head = parser
+      [< 'String s; rest >] -> p_tail [s] rest
+    | [< 'Kwd "]" >] -> []
+  in
+  parser
+      [< 'Kwd "["; rest >] -> p_head rest
+;;
+
+(** The operation types *)
+type operations =
+    Exec of string * string list * string list
+  | FailedRead of string
+  | Nop
+;;
+
+(** parse the different operations *)
+let p_operation = parser
+    (** execve(exe_name,args,env) = 0/-1 *)
+    [< 'Ident "execve"; 'Kwd "("; 'String exe_file; 'Kwd ","; args=p_str_list;
+       'Kwd ","; env=p_str_list; 'Kwd ")"; r=p_ret_code >] ->
+      if r < 0
+      then FailedRead exe_file
+      else Exec (exe_file,args,env)
+
+  | (** ignore some calls *)
+      [< 'Ident "getcwd"; ()=p_eat_to_nl >]   -> Nop
+  | [< 'Ident "statfs"; ()=p_eat_to_nl >]     -> Nop
+  | [< 'Ident "wait4"; ()=p_eat_to_nl >]      -> Nop
+  | [< 'Ident "vfork"; ()=p_eat_to_nl >]      -> Nop
+  | [< 'Ident "fork"; ()=p_eat_to_nl >]       -> Nop
+  | [< 'Ident "clone"; ()=p_eat_to_nl >]      -> Nop
+  | [< 'Ident "arch_prctl"; ()=p_eat_to_nl >] -> Nop
+
+  | (** catch-all, anything we fail to parse, print *)
+      [< ()=p_print_to_end >] -> Nop
+;;
+
+(** Parse a line of strace output *)
+let p_line = parser
+    [< 'Int pid; 'Float _; op=p_operation >] -> pid,op
+  | [< >] -> raise End_of_file
+;;
+
 let () =
   let chr_stream = translated_char_stream stdin in
   let tok_stream = lexer chr_stream in
-  Stream.iter print_token tok_stream
+    try
+      while true do
+        ignore (p_line tok_stream)
+      done
+    with End_of_file -> ()

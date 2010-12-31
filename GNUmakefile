@@ -17,50 +17,27 @@
 
 all:
 
-OCAMLFIND = ocamlfind
-OCAMLC    = ocamlc
-OCAMLOPT  = ocamlopt
+CABAL=cabal
+CABAL_CONFIGURE_FLAGS=--user --prefix=$(PREFIX)
+PREFIX=$(HOME)/local
 
-OCAML_COMPILE_FLAGS = -w -g
-OCAML_LINK_FLAGS    = -g
-OCAMLC_FLAGS        =
-OCAMLOPT_FLAGS      =
+PERCIPIO=dist/build/percipio/percipio
+CONFIG=dist/setup-config
 
-PACKAGES = camlp4
-SYNTAX   = camlp4o
+$(PERCIPIO): force $(CONFIG)
+	$(CABAL) build $(CABAL_BUILD_FLAGS)
 
-OCAMLFIND_PACKAGES = $(if $(PACKAGES),-package $(PACKAGES))
-OCAMLFIND_SYNTAX   = $(if $(SYNTAX),-syntax $(SYNTAX))
-OCAMLFIND_LINKPKG  = $(if $(PACKAGES),-linkpkg)
+$(CONFIG): Setup.hs percipio.cabal
+	$(CABAL) configure $(CABAL_CONFIGURE_FLAGS)
 
-BUILD_DIR = build
-
-SRC    = strace_parser.ml
-NATIVE = $(BUILD_DIR)/percepio-parser
-BYTE   = $(BUILD_DIR)/percepio-parser.byte
-
-CMO = $(SRC:%.ml=$(BUILD_DIR)/%.cmo)
-CMX = $(SRC:%.ml=$(BUILD_DIR)/%.cmx)
-
-$(NATIVE): $(CMX) | $(BUILD_DIR)
-	$(OCAMLFIND) $(OCAMLOPT) $(OCAML_LINK_FLAGS) $(OCAMLOPT_FLAGS) $(OCAMLFIND_LINKPKG) $(OCAMLFIND_PACKAGES) -o $@ $^
-$(BYTE): $(CMO) | $(BUILD_DIR)
-	$(OCAMLFIND) $(OCAMLC) $(OCAML_LINK_FLAGS) $(OCAMLC_FLAGS) $(OCAMLFIND_LINKPKG) $(OCAMLFIND_PACKAGES) -o $@ $^
-$(CMX): $(BUILD_DIR)/%.cmx: %.ml | $(BUILD_DIR)
-	$(OCAMLFIND) $(OCAMLOPT) $(OCAML_COMPILE_FLAGS) $(OCAMLOPT_FLAGS) $(OCAMLFIND_PACKAGES) $(OCAMLFIND_SYNTAX) -o $@ -c $<
-$(CMO): $(BUILD_DIR)/%.cmo: %.ml | $(BUILD_DIR)
-	$(OCAMLFIND) $(OCAMLC) $(OCAML_COMPILE_FLAGS) $(OCAMLC_FLAGS) $(OCAMLFIND_PACKAGES) $(OCAMLFIND_SYNTAX) -o $@ -c $<
-$(BUILD_DIR):
-	mkdir $@
-
-test: $(BYTE) test_data
+test: $(PERCIPIO) test_data
 	$< < test_data
 
+force:: ;
+
 clean::
-	rm -r $(NATIVE) $(BYTE) $(CMO) $(CMX)
+	rm -r dist
 
-all:    $(NATIVE) $(BYTE)
-native: $(NATIVE)
-byte:   $(BYTE)
+all:    $(PERCIPIO)
 
-.PHONY: all native byte clean test
+.PHONY: all clean test

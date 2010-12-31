@@ -1,0 +1,53 @@
+Name:                percipio
+Version:             0.1
+Synopsis:            Uses strace(1) to expose the actions and real dependencies of build systems
+Homepage:            https://github.com/alanfalloon/percipio
+License:             GPL-3
+License-file:        COPYING
+Author:              Alan Falloon
+Maintainer:          alan.falloon@gmail.com
+Stability:           Experimental
+Category:            Development
+Build-type:          Simple
+
+Description:
+
+  Use the output generated from the strace
+  <http://en.wikipedia.org/wiki/Strace> utility to dissect a build:
+
+  - The commands that are run
+
+  - The environment variables of each command
+
+  - Which files are read by each command (dependencies)
+
+  - Which files are written by each command (products)
+
+  Using this information, the actual dependency graph for your build
+  can be determined, and new build files can be generated. Or
+  highlight the differences between two runs to track down bugs in
+  your build.
+
+-- Extra files to be distributed with the package, such as examples or
+-- a README.
+-- Extra-source-files:
+
+-- Constraint on the version of Cabal needed to build this package.
+Cabal-version:       >=1.2
+
+
+Executable percipio
+  Main-is: Main.hs
+  Hs-Source-Dirs: src
+  Build-depends:
+    base >= 4,
+    bytestring >= 0.9,
+    old-locale >= 1,
+    parsec >= 3,
+    time >= 1.1
+
+  -- Modules not exported by this package.
+  -- Other-modules:
+
+  -- Extra tools (e.g. alex, hsc2hs, ...) needed to build the source.
+  -- Build-tools:

@@ -1,8 +1,14 @@
 module Strace.Parser
     (
+     -- Trace file parsing
      parseStrace,
      Line(..),
      TraceEvent(..),
+     TimeStamp(..),
+
+     -- Action Parsing (e.g. open() exec())
+     Action(..),
+     parseAction,
     ) where
 
 import Data.Either                 (partitionEithers)
@@ -15,15 +21,18 @@ import Text.Parsec.ByteString.Lazy (Parser)
 import Text.Parsec.Char
 import Text.Parsec.Combinator
 import Text.Parsec.Prim
-import qualified Data.ByteString.Lazy.Char8 as B 
+import qualified Data.ByteString.Lazy.Char8 as B
+import qualified Data.Map as Map
 
-data Line = Line { pid :: ! Int, time :: ! UTCTime, rest :: TraceEvent }
+data Line = Line { pid :: ! Int, time :: ! TimeStamp, rest :: TraceEvent }
             deriving Show
 
 data TraceEvent = TraceEvent B.ByteString
                 | Unfinished B.ByteString
                 | Resumed String B.ByteString
                   deriving Show
+
+type TimeStamp = UTCTime
 
 parseStrace :: B.ByteString -> ([ParseError],[Line])
 parseStrace contents = partitionEithers linesParse
@@ -91,3 +100,59 @@ parseTraceEvent = try parseResumed <|> parseTraceEvent'
     unfinished = B.pack "<unfinished ...>"
     unfinishedLen :: Int64
     unfinishedLen = B.length unfinished
+
+
+data Action = Signal { name :: String }
+            | Unknown { name :: String, args :: B.ByteString }
+            | SCexit_group { name :: String, retVal :: Int }
+              deriving Show
+
+parseAction :: B.ByteString -> Action
+parseAction bs = case parse parseAction' "" bs of
+                   Left err -> Unknown "parseerror" (B.pack $ show err)
+                   Right a -> a
+
+parseAction' :: Parser Action
+parseAction' = parseSignal <|> parseSyscall
+
+parseSignal :: Parser Action
+parseSignal = do
+  spaces
+  string "---"
+  spaces
+  n <- parseIdent
+  spaces
+  many anyChar
+  return $ Signal n
+
+parseSyscall :: Parser Action
+parseSyscall = do
+  spaces
+  n <- parseIdent
+  let p = findSyscallParser n
+  p n
+
+findSyscallParser :: String -> (String -> Parser Action)
+findSyscallParser id = Map.findWithDefault parseUnknownSyscall id syscallParserMap
+
+syscallParserMap :: Map.Map String (String -> Parser Action)
+syscallParserMap = Map.fromList [
+                    ("exit_group", parseSC'exit_group)
+                   ]
+
+parseUnknownSyscall :: String -> Parser Action
+parseUnknownSyscall n = do
+  rest <- getInput
+  return $ Unknown n rest
+
+parseSC'exit_group :: String -> Parser Action
+parseSC'exit_group n = do
+  code <- parens parseInt
+  spaces
+  char '='
+  spaces
+  char '?'
+  return $ SCexit_group n code
+
+parens :: Parser a -> Parser a
+parens = between (char '(') (char ')')
